@@ -35,7 +35,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Bright Bees Buzz', 'Tongue Twister Exercise',
+    v_lesson_id, 'Bright Bees Buzz', '3RF2 (94%) PRIMARY | 3L2 (86%) SECONDARY | 3SL6 (83%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/20.png'
@@ -49,7 +49,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Bright Bees Buzz',
-    '{"lesson_name": "Bright Bees Buzz", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Bright bees buzz by blue blossoms. Bright bees buzz by blue blossoms. Bright bees buzz by blue blossoms."}]}',
+    '{"lesson_name": "Bright Bees Buzz", "lesson_description": "3RF2 (94%) PRIMARY | 3L2 (86%) SECONDARY | 3SL6 (83%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Bright bees buzz by blue blossoms. Bright bees buzz by blue blossoms. Bright bees buzz by blue blossoms."}]}',
     'published', true, NOW()
   );
 
@@ -69,7 +69,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Tiny Turtles Turn', 'Tongue Twister Exercise',
+    v_lesson_id, 'Tiny Turtles Turn', '3RF2 (93%) PRIMARY | 3L2 (85%) SECONDARY | 3SL6 (82%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/33.png'
@@ -83,7 +83,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Tiny Turtles Turn',
-    '{"lesson_name": "Tiny Turtles Turn", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Tiny turtles turn toward tall trees. Tiny turtles turn toward tall trees. Tiny turtles turn toward tall trees."}]}',
+    '{"lesson_name": "Tiny Turtles Turn", "lesson_description": "3RF2 (93%) PRIMARY | 3L2 (85%) SECONDARY | 3SL6 (82%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Tiny turtles turn toward tall trees. Tiny turtles turn toward tall trees. Tiny turtles turn toward tall trees."}]}',
     'published', true, NOW()
   );
 
@@ -103,7 +103,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Silly Seals Slide', 'Tongue Twister Exercise',
+    v_lesson_id, 'Silly Seals Slide', '3RF2 (93%) PRIMARY | 3L2 (85%) SECONDARY | 3SL6 (82%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/39.png'
@@ -117,7 +117,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Silly Seals Slide',
-    '{"lesson_name": "Silly Seals Slide", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Silly seals slide on snowy slopes. Silly seals slide on snowy slopes. Silly seals slide on snowy slopes."}]}',
+    '{"lesson_name": "Silly Seals Slide", "lesson_description": "3RF2 (93%) PRIMARY | 3L2 (85%) SECONDARY | 3SL6 (82%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Silly seals slide on snowy slopes. Silly seals slide on snowy slopes. Silly seals slide on snowy slopes."}]}',
     'published', true, NOW()
   );
 
@@ -137,7 +137,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Lovely Lions Lie', 'Tongue Twister Exercise',
+    v_lesson_id, 'Lovely Lions Lie', '3RF2 (92%) PRIMARY | 3L2 (84%) SECONDARY | 3SL6 (82%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/36.png'
@@ -151,7 +151,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Lovely Lions Lie',
-    '{"lesson_name": "Lovely Lions Lie", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Lovely lions lie on long leaves. Lovely lions lie on long leaves. Lovely lions lie on long leaves."}]}',
+    '{"lesson_name": "Lovely Lions Lie", "lesson_description": "3RF2 (92%) PRIMARY | 3L2 (84%) SECONDARY | 3SL6 (82%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Lovely lions lie on long leaves. Lovely lions lie on long leaves. Lovely lions lie on long leaves."}]}',
     'published', true, NOW()
   );
 
@@ -171,7 +171,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Fluffy Frogs Flip', 'Tongue Twister Exercise',
+    v_lesson_id, 'Fluffy Frogs Flip', '3RF2 (92%) PRIMARY | 3L2 (84%) SECONDARY | 3SL6 (81%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/44.png'
@@ -185,7 +185,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Fluffy Frogs Flip',
-    '{"lesson_name": "Fluffy Frogs Flip", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Fluffy frogs flip and fly forward. Fluffy frogs flip and fly forward. Fluffy frogs flip and fly forward."}]}',
+    '{"lesson_name": "Fluffy Frogs Flip", "lesson_description": "3RF2 (92%) PRIMARY | 3L2 (84%) SECONDARY | 3SL6 (81%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Fluffy frogs flip and fly forward. Fluffy frogs flip and fly forward. Fluffy frogs flip and fly forward."}]}',
     'published', true, NOW()
   );
 
@@ -205,7 +205,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Dandy Ducks Dive', 'Tongue Twister Exercise',
+    v_lesson_id, 'Dandy Ducks Dive', '3RF2 (92%) PRIMARY | 3L2 (84%) SECONDARY | 3SL6 (81%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/90.png'
@@ -219,7 +219,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Dandy Ducks Dive',
-    '{"lesson_name": "Dandy Ducks Dive", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Dandy ducks dive deep down. Dandy ducks dive deep down. Dandy ducks dive deep down."}]}',
+    '{"lesson_name": "Dandy Ducks Dive", "lesson_description": "3RF2 (92%) PRIMARY | 3L2 (84%) SECONDARY | 3SL6 (81%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Dandy ducks dive deep down. Dandy ducks dive deep down. Dandy ducks dive deep down."}]}',
     'published', true, NOW()
   );
 
@@ -239,7 +239,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Giggling Geese Gather', 'Tongue Twister Exercise',
+    v_lesson_id, 'Giggling Geese Gather', '3RF2 (91%) PRIMARY | 3L2 (84%) SECONDARY | 3SL6 (81%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/61.png'
@@ -253,7 +253,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Giggling Geese Gather',
-    '{"lesson_name": "Giggling Geese Gather", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Giggling geese gather golden grain in green grassy fields. Giggling geese gather golden grain in green grassy fields. Giggling geese gather golden grain in green grassy fields."}]}',
+    '{"lesson_name": "Giggling Geese Gather", "lesson_description": "3RF2 (91%) PRIMARY | 3L2 (84%) SECONDARY | 3SL6 (81%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Giggling geese gather golden grain in green grassy fields. Giggling geese gather golden grain in green grassy fields. Giggling geese gather golden grain in green grassy fields."}]}',
     'published', true, NOW()
   );
 
@@ -273,7 +273,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Clever Cats Climb', 'Tongue Twister Exercise',
+    v_lesson_id, 'Clever Cats Climb', '3RF2 (91%) PRIMARY | 3L2 (83%) SECONDARY | 3SL6 (80%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/38.png'
@@ -287,7 +287,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Clever Cats Climb',
-    '{"lesson_name": "Clever Cats Climb", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Clever cats climb curvy cliffs to cross the creek. Clever cats climb curvy cliffs to cross the creek. Clever cats climb curvy cliffs to cross the creek."}]}',
+    '{"lesson_name": "Clever Cats Climb", "lesson_description": "3RF2 (91%) PRIMARY | 3L2 (83%) SECONDARY | 3SL6 (80%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Clever cats climb curvy cliffs to cross the creek. Clever cats climb curvy cliffs to cross the creek. Clever cats climb curvy cliffs to cross the creek."}]}',
     'published', true, NOW()
   );
 
@@ -307,7 +307,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Merry Mice Move', 'Tongue Twister Exercise',
+    v_lesson_id, 'Merry Mice Move', '3RF2 (90%) PRIMARY | 3L2 (83%) SECONDARY | 3SL6 (80%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/69.png'
@@ -321,7 +321,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Merry Mice Move',
-    '{"lesson_name": "Merry Mice Move", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Merry mice march through misty meadows at midday. Merry mice march through misty meadows at midday. Merry mice march through misty meadows at midday."}]}',
+    '{"lesson_name": "Merry Mice Move", "lesson_description": "3RF2 (90%) PRIMARY | 3L2 (83%) SECONDARY | 3SL6 (80%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Merry mice march through misty meadows at midday. Merry mice march through misty meadows at midday. Merry mice march through misty meadows at midday."}]}',
     'published', true, NOW()
   );
 
@@ -341,7 +341,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Peaceful Puppies Play', 'Tongue Twister Exercise',
+    v_lesson_id, 'Peaceful Puppies Play', '3RF2 (90%) PRIMARY | 3L2 (83%) SECONDARY | 3SL6 (80%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/69.png'
@@ -355,7 +355,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Peaceful Puppies Play',
-    '{"lesson_name": "Peaceful Puppies Play", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Peaceful puppies play in pretty purple parks near the pond. Peaceful puppies play in pretty purple parks near the pond. Peaceful puppies play in pretty purple parks near the pond."}]}',
+    '{"lesson_name": "Peaceful Puppies Play", "lesson_description": "3RF2 (90%) PRIMARY | 3L2 (83%) SECONDARY | 3SL6 (80%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Peaceful puppies play in pretty purple parks near the pond. Peaceful puppies play in pretty purple parks near the pond. Peaceful puppies play in pretty purple parks near the pond."}]}',
     'published', true, NOW()
   );
 
@@ -375,7 +375,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Seven Snug Squirrels', 'Tongue Twister Exercise',
+    v_lesson_id, 'Seven Snug Squirrels', '3RF2 (90%) PRIMARY | 3L2 (83%) SECONDARY | 3SL6 (80%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/83.png'
@@ -389,7 +389,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Seven Snug Squirrels',
-    '{"lesson_name": "Seven Snug Squirrels", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Seven snug squirrels snuck snacks from the snow-covered shelf. Seven snug squirrels snuck snacks from the snow-covered shelf. Seven snug squirrels snuck snacks from the snow-covered shelf."}]}',
+    '{"lesson_name": "Seven Snug Squirrels", "lesson_description": "3RF2 (90%) PRIMARY | 3L2 (83%) SECONDARY | 3SL6 (80%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Seven snug squirrels snuck snacks from the snow-covered shelf. Seven snug squirrels snuck snacks from the snow-covered shelf. Seven snug squirrels snuck snacks from the snow-covered shelf."}]}',
     'published', true, NOW()
   );
 
@@ -409,7 +409,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Brave Bluebirds Bounce', 'Tongue Twister Exercise',
+    v_lesson_id, 'Brave Bluebirds Bounce', '3RF2 (89%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/45.png'
@@ -423,7 +423,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Brave Bluebirds Bounce',
-    '{"lesson_name": "Brave Bluebirds Bounce", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Brave bluebirds boldly bounce between breezy branches at breakfast. Brave bluebirds boldly bounce between breezy branches at breakfast. Brave bluebirds boldly bounce between breezy branches at breakfast."}]}',
+    '{"lesson_name": "Brave Bluebirds Bounce", "lesson_description": "3RF2 (89%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Brave bluebirds boldly bounce between breezy branches at breakfast. Brave bluebirds boldly bounce between breezy branches at breakfast. Brave bluebirds boldly bounce between breezy branches at breakfast."}]}',
     'published', true, NOW()
   );
 
@@ -443,7 +443,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Friendly Frogs Flip', 'Tongue Twister Exercise',
+    v_lesson_id, 'Friendly Frogs Flip', '3RF2 (89%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/8.png'
@@ -457,7 +457,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Friendly Frogs Flip',
-    '{"lesson_name": "Friendly Frogs Flip", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Friendly frogs flip forward on fresh flat flowers near the stream. Friendly frogs flip forward on fresh flat flowers near the stream. Friendly frogs flip forward on fresh flat flowers near the stream."}]}',
+    '{"lesson_name": "Friendly Frogs Flip", "lesson_description": "3RF2 (89%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Friendly frogs flip forward on fresh flat flowers near the stream. Friendly frogs flip forward on fresh flat flowers near the stream. Friendly frogs flip forward on fresh flat flowers near the stream."}]}',
     'published', true, NOW()
   );
 
@@ -477,7 +477,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Tall Tulips Twist', 'Tongue Twister Exercise',
+    v_lesson_id, 'Tall Tulips Twist', '3RF2 (89%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/53.png'
@@ -491,7 +491,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Tall Tulips Twist',
-    '{"lesson_name": "Tall Tulips Twist", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Tall tulips twist toward the twinkly sky at twilight. Tall tulips twist toward the twinkly sky at twilight. Tall tulips twist toward the twinkly sky at twilight."}]}',
+    '{"lesson_name": "Tall Tulips Twist", "lesson_description": "3RF2 (89%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Tall tulips twist toward the twinkly sky at twilight. Tall tulips twist toward the twinkly sky at twilight. Tall tulips twist toward the twinkly sky at twilight."}]}',
     'published', true, NOW()
   );
 
@@ -511,7 +511,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Lucky Lanterns Light', 'Tongue Twister Exercise',
+    v_lesson_id, 'Lucky Lanterns Light', '3RF2 (88%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/79.png'
@@ -525,7 +525,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Lucky Lanterns Light',
-    '{"lesson_name": "Lucky Lanterns Light", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Lucky lanterns lightly light the long, lonely lane in the sleepy village. Lucky lanterns lightly light the long, lonely lane in the sleepy village. Lucky lanterns lightly light the long, lonely lane in the sleepy village."}]}',
+    '{"lesson_name": "Lucky Lanterns Light", "lesson_description": "3RF2 (88%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Lucky lanterns lightly light the long, lonely lane in the sleepy village. Lucky lanterns lightly light the long, lonely lane in the sleepy village. Lucky lanterns lightly light the long, lonely lane in the sleepy village."}]}',
     'published', true, NOW()
   );
 
@@ -545,7 +545,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Crispy Crackers Crunch', 'Tongue Twister Exercise',
+    v_lesson_id, 'Crispy Crackers Crunch', '3RF2 (88%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/52.png'
@@ -559,7 +559,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Crispy Crackers Crunch',
-    '{"lesson_name": "Crispy Crackers Crunch", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Crispy crackers crunch and crackle when cheerful children chew them by the creek. Crispy crackers crunch and crackle when cheerful children chew them by the creek. Crispy crackers crunch and crackle when cheerful children chew them by the creek."}]}',
+    '{"lesson_name": "Crispy Crackers Crunch", "lesson_description": "3RF2 (88%) PRIMARY | 3L2 (82%) SECONDARY | 3SL6 (79%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Crispy crackers crunch and crackle when cheerful children chew them by the creek. Crispy crackers crunch and crackle when cheerful children chew them by the creek. Crispy crackers crunch and crackle when cheerful children chew them by the creek."}]}',
     'published', true, NOW()
   );
 
@@ -579,7 +579,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Shrieking Shrimp Shuffle', 'Tongue Twister Exercise',
+    v_lesson_id, 'Shrieking Shrimp Shuffle', '3RF2 (88%) PRIMARY | 3L2 (81%) SECONDARY | 3SL6 (79%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/76.png'
@@ -593,7 +593,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Shrieking Shrimp Shuffle',
-    '{"lesson_name": "Shrieking Shrimp Shuffle", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Shrieking shrimp shuffle sideways on the shiny shore at the edge of the shallow sea. Shrieking shrimp shuffle sideways on the shiny shore at the edge of the shallow sea. Shrieking shrimp shuffle sideways on the shiny shore at the edge of the shallow sea."}]}',
+    '{"lesson_name": "Shrieking Shrimp Shuffle", "lesson_description": "3RF2 (88%) PRIMARY | 3L2 (81%) SECONDARY | 3SL6 (79%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Shrieking shrimp shuffle sideways on the shiny shore at the edge of the shallow sea. Shrieking shrimp shuffle sideways on the shiny shore at the edge of the shallow sea. Shrieking shrimp shuffle sideways on the shiny shore at the edge of the shallow sea."}]}',
     'published', true, NOW()
   );
 
@@ -613,7 +613,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Slippery Snakes Slither', 'Tongue Twister Exercise',
+    v_lesson_id, 'Slippery Snakes Slither', '3RF2 (87%) PRIMARY | 3L2 (81%) SECONDARY | 3SL6 (78%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/69.png'
@@ -627,7 +627,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Slippery Snakes Slither',
-    '{"lesson_name": "Slippery Snakes Slither", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Slippery snakes slither slowly through the slick, snowy slope near the sleeping village. Slippery snakes slither slowly through the slick, snowy slope near the sleeping village. Slippery snakes slither slowly through the slick, snowy slope near the sleeping village."}]}',
+    '{"lesson_name": "Slippery Snakes Slither", "lesson_description": "3RF2 (87%) PRIMARY | 3L2 (81%) SECONDARY | 3SL6 (78%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Slippery snakes slither slowly through the slick, snowy slope near the sleeping village. Slippery snakes slither slowly through the slick, snowy slope near the sleeping village. Slippery snakes slither slowly through the slick, snowy slope near the sleeping village."}]}',
     'published', true, NOW()
   );
 
@@ -647,7 +647,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Glowing Glowworms Glow', 'Tongue Twister Exercise',
+    v_lesson_id, 'Glowing Glowworms Glow', '3RF2 (87%) PRIMARY | 3L2 (81%) SECONDARY | 3SL6 (78%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/84.png'
@@ -661,7 +661,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Glowing Glowworms Glow',
-    '{"lesson_name": "Glowing Glowworms Glow", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Glowing glowworms gleam and glisten along the gloomy, glassy riverbank at night. Glowing glowworms gleam and glisten along the gloomy, glassy riverbank at night. Glowing glowworms gleam and glisten along the gloomy, glassy riverbank at night."}]}',
+    '{"lesson_name": "Glowing Glowworms Glow", "lesson_description": "3RF2 (87%) PRIMARY | 3L2 (81%) SECONDARY | 3SL6 (78%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Glowing glowworms gleam and glisten along the gloomy, glassy riverbank at night. Glowing glowworms gleam and glisten along the gloomy, glassy riverbank at night. Glowing glowworms gleam and glisten along the gloomy, glassy riverbank at night."}]}',
     'published', true, NOW()
   );
 
@@ -681,7 +681,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Three Thin Threads', 'Tongue Twister Exercise',
+    v_lesson_id, 'Three Thin Threads', '3RF2 (87%) PRIMARY | 3L2 (81%) SECONDARY | 3SL6 (78%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/93.png'
@@ -695,7 +695,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Three Thin Threads',
-    '{"lesson_name": "Three Thin Threads", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Three thin threads threaded through the throat of a thrush sitting on a thorn. Three thin threads threaded through the throat of a thrush sitting on a thorn. Three thin threads threaded through the throat of a thrush sitting on a thorn."}]}',
+    '{"lesson_name": "Three Thin Threads", "lesson_description": "3RF2 (87%) PRIMARY | 3L2 (81%) SECONDARY | 3SL6 (78%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Three thin threads threaded through the throat of a thrush sitting on a thorn. Three thin threads threaded through the throat of a thrush sitting on a thorn. Three thin threads threaded through the throat of a thrush sitting on a thorn."}]}',
     'published', true, NOW()
   );
 
@@ -715,7 +715,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Sprinting Sprouts Spring', 'Tongue Twister Exercise',
+    v_lesson_id, 'Sprinting Sprouts Spring', '3RF2 (86%) PRIMARY | 3L2 (80%) SECONDARY | 3SL6 (78%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/13.png'
@@ -729,7 +729,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Sprinting Sprouts Spring',
-    '{"lesson_name": "Sprinting Sprouts Spring", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Sprinting sprouts spring up from the spread of soil after every splash of spring rain. Sprinting sprouts spring up from the spread of soil after every splash of spring rain. Sprinting sprouts spring up from the spread of soil after every splash of spring rain."}]}',
+    '{"lesson_name": "Sprinting Sprouts Spring", "lesson_description": "3RF2 (86%) PRIMARY | 3L2 (80%) SECONDARY | 3SL6 (78%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Sprinting sprouts spring up from the spread of soil after every splash of spring rain. Sprinting sprouts spring up from the spread of soil after every splash of spring rain. Sprinting sprouts spring up from the spread of soil after every splash of spring rain."}]}',
     'published', true, NOW()
   );
 
@@ -749,7 +749,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Scrubbing Crabs Scrabble', 'Tongue Twister Exercise',
+    v_lesson_id, 'Scrubbing Crabs Scrabble', '3RF2 (86%) PRIMARY | 3L2 (80%) SECONDARY | 3SL6 (77%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/96.png'
@@ -763,7 +763,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Scrubbing Crabs Scrabble',
-    '{"lesson_name": "Scrubbing Crabs Scrabble", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Scrubbing crabs scrabble and scratch across the scratchy, crinkled creek bed in the cove. Scrubbing crabs scrabble and scratch across the scratchy, crinkled creek bed in the cove. Scrubbing crabs scrabble and scratch across the scratchy, crinkled creek bed in the cove."}]}',
+    '{"lesson_name": "Scrubbing Crabs Scrabble", "lesson_description": "3RF2 (86%) PRIMARY | 3L2 (80%) SECONDARY | 3SL6 (77%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Scrubbing crabs scrabble and scratch across the scratchy, crinkled creek bed in the cove. Scrubbing crabs scrabble and scratch across the scratchy, crinkled creek bed in the cove. Scrubbing crabs scrabble and scratch across the scratchy, crinkled creek bed in the cove."}]}',
     'published', true, NOW()
   );
 
@@ -783,7 +783,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Twitching Twigs Twist', 'Tongue Twister Exercise',
+    v_lesson_id, 'Twitching Twigs Twist', '3RF2 (86%) PRIMARY | 3L2 (80%) SECONDARY | 3SL6 (77%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/43.png'
@@ -797,7 +797,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Twitching Twigs Twist',
-    '{"lesson_name": "Twitching Twigs Twist", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Twitching twigs twist and tremble in the strong, travelling breeze across the treetops. Twitching twigs twist and tremble in the strong, travelling breeze across the treetops. Twitching twigs twist and tremble in the strong, travelling breeze across the treetops."}]}',
+    '{"lesson_name": "Twitching Twigs Twist", "lesson_description": "3RF2 (86%) PRIMARY | 3L2 (80%) SECONDARY | 3SL6 (77%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Twitching twigs twist and tremble in the strong, travelling breeze across the treetops. Twitching twigs twist and tremble in the strong, travelling breeze across the treetops. Twitching twigs twist and tremble in the strong, travelling breeze across the treetops."}]}',
     'published', true, NOW()
   );
 
@@ -817,7 +817,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Splitting Splinters Splashed', 'Tongue Twister Exercise',
+    v_lesson_id, 'Splitting Splinters Splashed', '3RF2 (85%) PRIMARY | 3L2 (80%) SECONDARY | 3SL6 (77%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/71.png'
@@ -831,7 +831,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Splitting Splinters Splashed',
-    '{"lesson_name": "Splitting Splinters Splashed", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Splitting splinters splashed and sprang from the strong, strange tree struck by the storm. Splitting splinters splashed and sprang from the strong, strange tree struck by the storm. Splitting splinters splashed and sprang from the strong, strange tree struck by the storm."}]}',
+    '{"lesson_name": "Splitting Splinters Splashed", "lesson_description": "3RF2 (85%) PRIMARY | 3L2 (80%) SECONDARY | 3SL6 (77%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Splitting splinters splashed and sprang from the strong, strange tree struck by the storm. Splitting splinters splashed and sprang from the strong, strange tree struck by the storm. Splitting splinters splashed and sprang from the strong, strange tree struck by the storm."}]}',
     'published', true, NOW()
   );
 
@@ -851,7 +851,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Striking Streams Stream', 'Tongue Twister Exercise',
+    v_lesson_id, 'Striking Streams Stream', '3RF2 (85%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (77%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/59.png'
@@ -865,7 +865,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Striking Streams Stream',
-    '{"lesson_name": "Striking Streams Stream", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Striking streams stream swiftly through the steep, straight stretch of the stony valley. Striking streams stream swiftly through the steep, straight stretch of the stony valley. Striking streams stream swiftly through the steep, straight stretch of the stony valley."}]}',
+    '{"lesson_name": "Striking Streams Stream", "lesson_description": "3RF2 (85%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (77%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Striking streams stream swiftly through the steep, straight stretch of the stony valley. Striking streams stream swiftly through the steep, straight stretch of the stony valley. Striking streams stream swiftly through the steep, straight stretch of the stony valley."}]}',
     'published', true, NOW()
   );
 
@@ -885,7 +885,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Thrashing Thrushes Threw', 'Tongue Twister Exercise',
+    v_lesson_id, 'Thrashing Thrushes Threw', '3RF2 (85%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (76%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/32.png'
@@ -899,7 +899,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Thrashing Thrushes Threw',
-    '{"lesson_name": "Thrashing Thrushes Threw", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Thrashing thrushes threw three thick chunks of chocolate through the thornbush near the bridge. Thrashing thrushes threw three thick chunks of chocolate through the thornbush near the bridge. Thrashing thrushes threw three thick chunks of chocolate through the thornbush near the bridge."}]}',
+    '{"lesson_name": "Thrashing Thrushes Threw", "lesson_description": "3RF2 (85%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (76%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Thrashing thrushes threw three thick chunks of chocolate through the thornbush near the bridge. Thrashing thrushes threw three thick chunks of chocolate through the thornbush near the bridge. Thrashing thrushes threw three thick chunks of chocolate through the thornbush near the bridge."}]}',
     'published', true, NOW()
   );
 
@@ -919,7 +919,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Clinking Clocks Click', 'Tongue Twister Exercise',
+    v_lesson_id, 'Clinking Clocks Click', '3RF2 (84%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (76%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/16.png'
@@ -933,7 +933,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Clinking Clocks Click',
-    '{"lesson_name": "Clinking Clocks Click", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Clinking clocks click and creak as clever crows cling to the crown of the crumbling clock tower. Clinking clocks click and creak as clever crows cling to the crown of the crumbling clock tower. Clinking clocks click and creak as clever crows cling to the crown of the crumbling clock tower."}]}',
+    '{"lesson_name": "Clinking Clocks Click", "lesson_description": "3RF2 (84%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (76%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Clinking clocks click and creak as clever crows cling to the crown of the crumbling clock tower. Clinking clocks click and creak as clever crows cling to the crown of the crumbling clock tower. Clinking clocks click and creak as clever crows cling to the crown of the crumbling clock tower."}]}',
     'published', true, NOW()
   );
 
@@ -953,7 +953,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Sparkling Sprats Sprang', 'Tongue Twister Exercise',
+    v_lesson_id, 'Sparkling Sprats Sprang', '3RF2 (84%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (76%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/3.png'
@@ -967,7 +967,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Sparkling Sprats Sprang',
-    '{"lesson_name": "Sparkling Sprats Sprang", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Sparkling sprats sprang and splashed through the spreading spray at the edge of the splitting reef. Sparkling sprats sprang and splashed through the spreading spray at the edge of the splitting reef. Sparkling sprats sprang and splashed through the spreading spray at the edge of the splitting reef."}]}',
+    '{"lesson_name": "Sparkling Sprats Sprang", "lesson_description": "3RF2 (84%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (76%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Sparkling sprats sprang and splashed through the spreading spray at the edge of the splitting reef. Sparkling sprats sprang and splashed through the spreading spray at the edge of the splitting reef. Sparkling sprats sprang and splashed through the spreading spray at the edge of the splitting reef."}]}',
     'published', true, NOW()
   );
 
@@ -987,7 +987,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Gripping Grizzlies Growl', 'Tongue Twister Exercise',
+    v_lesson_id, 'Gripping Grizzlies Growl', '3RF2 (84%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (76%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/38.png'
@@ -1001,7 +1001,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Gripping Grizzlies Growl',
-    '{"lesson_name": "Gripping Grizzlies Growl", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Gripping grizzlies growl and groan as they graze across the great, grey, granite gravel slope. Gripping grizzlies growl and groan as they graze across the great, grey, granite gravel slope. Gripping grizzlies growl and groan as they graze across the great, grey, granite gravel slope."}]}',
+    '{"lesson_name": "Gripping Grizzlies Growl", "lesson_description": "3RF2 (84%) PRIMARY | 3L2 (79%) SECONDARY | 3SL6 (76%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Gripping grizzlies growl and groan as they graze across the great, grey, granite gravel slope. Gripping grizzlies growl and groan as they graze across the great, grey, granite gravel slope. Gripping grizzlies growl and groan as they graze across the great, grey, granite gravel slope."}]}',
     'published', true, NOW()
   );
 
@@ -1021,7 +1021,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Scratchy Scrub Brushes Scrub', 'Tongue Twister Exercise',
+    v_lesson_id, 'Scratchy Scrub Brushes Scrub', '3RF2 (84%) PRIMARY | 3L2 (78%) SECONDARY | 3SL6 (76%) SECONDARY',
     'cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b', 'EASY',
     'Pronunciation Diction', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/36.png'
@@ -1035,7 +1035,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Scratchy Scrub Brushes Scrub',
-    '{"lesson_name": "Scratchy Scrub Brushes Scrub", "lesson_description": "Tongue Twister Exercise", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Scratchy scrub brushes bravely scrub and scrape the brown, brittle brick bridge in the brisk breeze. Scratchy scrub brushes bravely scrub and scrape the brown, brittle brick bridge in the brisk breeze. Scratchy scrub brushes bravely scrub and scrape the brown, brittle brick bridge in the brisk breeze."}]}',
+    '{"lesson_name": "Scratchy Scrub Brushes Scrub", "lesson_description": "3RF2 (84%) PRIMARY | 3L2 (78%) SECONDARY | 3SL6 (76%) SECONDARY", "training_module_id": "cf94d7a5-1b5b-4f1a-8e6c-0e9d8ca3455b", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Pronunciation Diction", "contents": [{"content_key": "example", "content_value": "She sells seashells by the seashore."}, {"content_key": "tongue_twister", "content_value": "Scratchy scrub brushes bravely scrub and scrape the brown, brittle brick bridge in the brisk breeze. Scratchy scrub brushes bravely scrub and scrape the brown, brittle brick bridge in the brisk breeze. Scratchy scrub brushes bravely scrub and scrape the brown, brittle brick bridge in the brisk breeze."}]}',
     'published', true, NOW()
   );
 

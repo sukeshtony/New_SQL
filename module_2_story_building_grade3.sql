@@ -35,7 +35,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Garden Helper', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Garden Helper', '3L6 (94%) PRIMARY | 3R1 (85%) SECONDARY | 3R3 (82%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/12.png'
@@ -50,7 +50,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Garden Helper',
-    '{"lesson_name": "The Garden Helper", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "plant, soil, water, grow, roots"}]}',
+    '{"lesson_name": "The Garden Helper", "lesson_description": "3L6 (94%) PRIMARY | 3R1 (85%) SECONDARY | 3R3 (82%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "plant, soil, water, grow, roots"}]}',
     'published', true, NOW()
   );
 
@@ -70,7 +70,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'A Trip to the Library', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'A Trip to the Library', '3L6 (93%) PRIMARY | 3R1 (84%) SECONDARY | 3R3 (81%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/85.png'
@@ -85,7 +85,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'A Trip to the Library',
-    '{"lesson_name": "A Trip to the Library", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "borrow, return, shelf, choose, quiet"}]}',
+    '{"lesson_name": "A Trip to the Library", "lesson_description": "3L6 (93%) PRIMARY | 3R1 (84%) SECONDARY | 3R3 (81%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "borrow, return, shelf, choose, quiet"}]}',
     'published', true, NOW()
   );
 
@@ -105,7 +105,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Learning to Ride', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Learning to Ride', '3L6 (93%) PRIMARY | 3R1 (84%) SECONDARY | 3R3 (81%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/44.png'
@@ -120,7 +120,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Learning to Ride',
-    '{"lesson_name": "Learning to Ride", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "balance, practice, fall, try, success"}]}',
+    '{"lesson_name": "Learning to Ride", "lesson_description": "3L6 (93%) PRIMARY | 3R1 (84%) SECONDARY | 3R3 (81%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "balance, practice, fall, try, success"}]}',
     'published', true, NOW()
   );
 
@@ -140,7 +140,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Baking Day', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Baking Day', '3L6 (92%) PRIMARY | 3R1 (83%) SECONDARY | 3R3 (80%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/3.png'
@@ -155,7 +155,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Baking Day',
-    '{"lesson_name": "The Baking Day", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "mix, pour, bake, taste, warm"}]}',
+    '{"lesson_name": "The Baking Day", "lesson_description": "3L6 (92%) PRIMARY | 3R1 (83%) SECONDARY | 3R3 (80%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "mix, pour, bake, taste, warm"}]}',
     'published', true, NOW()
   );
 
@@ -175,7 +175,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'A Sunny Walk', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'A Sunny Walk', '3L6 (92%) PRIMARY | 3R1 (83%) SECONDARY | 3R3 (80%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/67.png'
@@ -190,7 +190,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'A Sunny Walk',
-    '{"lesson_name": "A Sunny Walk", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "path, shadow, notice, listen, explore"}]}',
+    '{"lesson_name": "A Sunny Walk", "lesson_description": "3L6 (92%) PRIMARY | 3R1 (83%) SECONDARY | 3R3 (80%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "path, shadow, notice, listen, explore"}]}',
     'published', true, NOW()
   );
 
@@ -210,7 +210,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Classroom Pet', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Classroom Pet', '3L6 (91%) PRIMARY | 3R1 (83%) SECONDARY | 3R3 (80%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/91.png'
@@ -225,7 +225,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Classroom Pet',
-    '{"lesson_name": "The Classroom Pet", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "care, feed, gentle, responsible, observe"}]}',
+    '{"lesson_name": "The Classroom Pet", "lesson_description": "3L6 (91%) PRIMARY | 3R1 (83%) SECONDARY | 3R3 (80%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "care, feed, gentle, responsible, observe"}]}',
     'published', true, NOW()
   );
 
@@ -245,7 +245,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Storm at Sea', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Storm at Sea', '3L6 (92%) PRIMARY | 3R3 (84%) SECONDARY | 3R1 (82%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/29.png'
@@ -260,7 +260,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Storm at Sea',
-    '{"lesson_name": "Storm at Sea", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "fierce, wave, captain, brave, anchor"}]}',
+    '{"lesson_name": "Storm at Sea", "lesson_description": "3L6 (92%) PRIMARY | 3R3 (84%) SECONDARY | 3R1 (82%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "fierce, wave, captain, brave, anchor"}]}',
     'published', true, NOW()
   );
 
@@ -280,7 +280,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Ant Colony', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Ant Colony', '3L6 (92%) PRIMARY | 3R3 (84%) SECONDARY | 3R1 (82%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/54.png'
@@ -295,7 +295,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Ant Colony',
-    '{"lesson_name": "The Ant Colony", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "colony, tunnel, carry, teamwork, gather"}]}',
+    '{"lesson_name": "The Ant Colony", "lesson_description": "3L6 (92%) PRIMARY | 3R3 (84%) SECONDARY | 3R1 (82%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "colony, tunnel, carry, teamwork, gather"}]}',
     'published', true, NOW()
   );
 
@@ -315,7 +315,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'A New Pet Fish', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'A New Pet Fish', '3L6 (91%) PRIMARY | 3R3 (84%) SECONDARY | 3R1 (81%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/7.png'
@@ -330,7 +330,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'A New Pet Fish',
-    '{"lesson_name": "A New Pet Fish", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "habitat, tank, breathe, feed, peaceful"}]}',
+    '{"lesson_name": "A New Pet Fish", "lesson_description": "3L6 (91%) PRIMARY | 3R3 (84%) SECONDARY | 3R1 (81%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "habitat, tank, breathe, feed, peaceful"}]}',
     'published', true, NOW()
   );
 
@@ -350,7 +350,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Desert Animals', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Desert Animals', '3L6 (91%) PRIMARY | 3R3 (83%) SECONDARY | 3R1 (81%) SECONDARY | 3L1 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/82.png'
@@ -365,7 +365,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Desert Animals',
-    '{"lesson_name": "Desert Animals", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "survive, shade, nocturnal, burrow, adapt"}]}',
+    '{"lesson_name": "Desert Animals", "lesson_description": "3L6 (91%) PRIMARY | 3R3 (83%) SECONDARY | 3R1 (81%) SECONDARY | 3L1 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "survive, shade, nocturnal, burrow, adapt"}]}',
     'published', true, NOW()
   );
 
@@ -385,7 +385,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Mail Carriers', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Mail Carriers', '3L6 (91%) PRIMARY | 3R3 (83%) SECONDARY | 3R1 (81%) SECONDARY | 3L1 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/39.png'
@@ -400,7 +400,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Mail Carriers',
-    '{"lesson_name": "Mail Carriers", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "deliver, route, package, careful, important"}]}',
+    '{"lesson_name": "Mail Carriers", "lesson_description": "3L6 (91%) PRIMARY | 3R3 (83%) SECONDARY | 3R1 (81%) SECONDARY | 3L1 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "deliver, route, package, careful, important"}]}',
     'published', true, NOW()
   );
 
@@ -420,7 +420,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Frozen Pond', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Frozen Pond', '3L6 (90%) PRIMARY | 3R3 (83%) SECONDARY | 3R1 (80%) SECONDARY | 3L1 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/18.png'
@@ -435,7 +435,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Frozen Pond',
-    '{"lesson_name": "The Frozen Pond", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "reflect, frozen, glide, patient, slippery"}]}',
+    '{"lesson_name": "The Frozen Pond", "lesson_description": "3L6 (90%) PRIMARY | 3R3 (83%) SECONDARY | 3R1 (80%) SECONDARY | 3L1 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "reflect, frozen, glide, patient, slippery"}]}',
     'published', true, NOW()
   );
 
@@ -455,7 +455,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'A Busy Market', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'A Busy Market', '3L6 (90%) PRIMARY | 3R3 (83%) SECONDARY | 3R1 (80%) SECONDARY | 3L1 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/96.png'
@@ -470,7 +470,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'A Busy Market',
-    '{"lesson_name": "A Busy Market", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "vendor, trade, fresh, exchange, bargain"}]}',
+    '{"lesson_name": "A Busy Market", "lesson_description": "3L6 (90%) PRIMARY | 3R3 (83%) SECONDARY | 3R1 (80%) SECONDARY | 3L1 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "vendor, trade, fresh, exchange, bargain"}]}',
     'published', true, NOW()
   );
 
@@ -490,7 +490,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Old Oak Tree', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Old Oak Tree', '3L6 (90%) PRIMARY | 3R3 (82%) SECONDARY | 3R1 (80%) SECONDARY | 3L1 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/21.png'
@@ -505,7 +505,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Old Oak Tree',
-    '{"lesson_name": "The Old Oak Tree", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "ancient, shelter, hollow, sturdy, rings"}]}',
+    '{"lesson_name": "The Old Oak Tree", "lesson_description": "3L6 (90%) PRIMARY | 3R3 (82%) SECONDARY | 3R1 (80%) SECONDARY | 3L1 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "ancient, shelter, hollow, sturdy, rings"}]}',
     'published', true, NOW()
   );
 
@@ -525,7 +525,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Rainy Season', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Rainy Season', '3L6 (89%) PRIMARY | 3R3 (82%) SECONDARY | 3R1 (80%) SECONDARY | 3L1 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/70.png'
@@ -540,7 +540,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Rainy Season',
-    '{"lesson_name": "The Rainy Season", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "flood, collect, puddle, overflow, drain"}]}',
+    '{"lesson_name": "The Rainy Season", "lesson_description": "3L6 (89%) PRIMARY | 3R3 (82%) SECONDARY | 3R1 (80%) SECONDARY | 3L1 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "flood, collect, puddle, overflow, drain"}]}',
     'published', true, NOW()
   );
 
@@ -560,7 +560,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Bees and Flowers', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Bees and Flowers', '3L6 (91%) PRIMARY | 3R3 (86%) SECONDARY | 3R9 (82%) SECONDARY | 3L1 (80%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/48.png'
@@ -575,7 +575,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Bees and Flowers',
-    '{"lesson_name": "Bees and Flowers", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "pollinate, nectar, hive, transfer, bloom"}]}',
+    '{"lesson_name": "Bees and Flowers", "lesson_description": "3L6 (91%) PRIMARY | 3R3 (86%) SECONDARY | 3R9 (82%) SECONDARY | 3L1 (80%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "pollinate, nectar, hive, transfer, bloom"}]}',
     'published', true, NOW()
   );
 
@@ -595,7 +595,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Mountain Hikers', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Mountain Hikers', '3L6 (91%) PRIMARY | 3R3 (86%) SECONDARY | 3R9 (81%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/62.png'
@@ -610,7 +610,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Mountain Hikers',
-    '{"lesson_name": "Mountain Hikers", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "summit, trail, altitude, endurance, descent"}]}',
+    '{"lesson_name": "Mountain Hikers", "lesson_description": "3L6 (91%) PRIMARY | 3R3 (86%) SECONDARY | 3R9 (81%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "summit, trail, altitude, endurance, descent"}]}',
     'published', true, NOW()
   );
 
@@ -630,7 +630,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Robot Helper', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Robot Helper', '3L6 (90%) PRIMARY | 3R3 (85%) SECONDARY | 3R9 (81%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/11.png'
@@ -645,7 +645,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Robot Helper',
-    '{"lesson_name": "The Robot Helper", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "program, command, function, error, update"}]}',
+    '{"lesson_name": "The Robot Helper", "lesson_description": "3L6 (90%) PRIMARY | 3R3 (85%) SECONDARY | 3R9 (81%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "program, command, function, error, update"}]}',
     'published', true, NOW()
   );
 
@@ -665,7 +665,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'A Long Migration', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'A Long Migration', '3L6 (90%) PRIMARY | 3R3 (85%) SECONDARY | 3R9 (81%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/55.png'
@@ -680,7 +680,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'A Long Migration',
-    '{"lesson_name": "A Long Migration", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "migrate, journey, navigate, instinct, flock"}]}',
+    '{"lesson_name": "A Long Migration", "lesson_description": "3L6 (90%) PRIMARY | 3R3 (85%) SECONDARY | 3R9 (81%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "migrate, journey, navigate, instinct, flock"}]}',
     'published', true, NOW()
   );
 
@@ -700,7 +700,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The School Play', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The School Play', '3L6 (89%) PRIMARY | 3R3 (84%) SECONDARY | 3R9 (80%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/100.png'
@@ -715,7 +715,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The School Play',
-    '{"lesson_name": "The School Play", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "rehearse, perform, audience, confident, applause"}]}',
+    '{"lesson_name": "The School Play", "lesson_description": "3L6 (89%) PRIMARY | 3R3 (84%) SECONDARY | 3R9 (80%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "rehearse, perform, audience, confident, applause"}]}',
     'published', true, NOW()
   );
 
@@ -735,7 +735,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Wind Energy', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Wind Energy', '3L6 (89%) PRIMARY | 3R3 (84%) SECONDARY | 3R9 (80%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/33.png'
@@ -750,7 +750,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Wind Energy',
-    '{"lesson_name": "Wind Energy", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "turbine, generate, renewable, resource, efficient"}]}',
+    '{"lesson_name": "Wind Energy", "lesson_description": "3L6 (89%) PRIMARY | 3R3 (84%) SECONDARY | 3R9 (80%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "turbine, generate, renewable, resource, efficient"}]}',
     'published', true, NOW()
   );
 
@@ -770,7 +770,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Ocean Explorers', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Ocean Explorers', '3L6 (88%) PRIMARY | 3R3 (84%) SECONDARY | 3R9 (80%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/74.png'
@@ -785,7 +785,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Ocean Explorers',
-    '{"lesson_name": "Ocean Explorers", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "current, depth, pressure, submarine, discover"}]}',
+    '{"lesson_name": "Ocean Explorers", "lesson_description": "3L6 (88%) PRIMARY | 3R3 (84%) SECONDARY | 3R9 (80%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "current, depth, pressure, submarine, discover"}]}',
     'published', true, NOW()
   );
 
@@ -805,7 +805,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'A Fire Station Visit', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'A Fire Station Visit', '3L6 (88%) PRIMARY | 3R3 (83%) SECONDARY | 3R9 (80%) SECONDARY | 3L1 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/15.png'
@@ -820,7 +820,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'A Fire Station Visit',
-    '{"lesson_name": "A Fire Station Visit", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "emergency, equipment, protect, rescue, prevention"}]}',
+    '{"lesson_name": "A Fire Station Visit", "lesson_description": "3L6 (88%) PRIMARY | 3R3 (83%) SECONDARY | 3R9 (80%) SECONDARY | 3L1 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "emergency, equipment, protect, rescue, prevention"}]}',
     'published', true, NOW()
   );
 
@@ -840,7 +840,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Democracy Vote', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Democracy Vote', '3L6 (90%) PRIMARY | 3R9 (86%) SECONDARY | 3R3 (83%) SECONDARY | 3R2 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/61.png'
@@ -855,7 +855,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Democracy Vote',
-    '{"lesson_name": "The Democracy Vote", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "vote, debate, decision, represent, majority"}]}',
+    '{"lesson_name": "The Democracy Vote", "lesson_description": "3L6 (90%) PRIMARY | 3R9 (86%) SECONDARY | 3R3 (83%) SECONDARY | 3R2 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "vote, debate, decision, represent, majority"}]}',
     'published', true, NOW()
   );
 
@@ -875,7 +875,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Saving Water', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Saving Water', '3L6 (90%) PRIMARY | 3R9 (85%) SECONDARY | 3R3 (83%) SECONDARY | 3R2 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/4.png'
@@ -890,7 +890,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Saving Water',
-    '{"lesson_name": "Saving Water", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "conserve, scarce, precious, reduce, waste"}]}',
+    '{"lesson_name": "Saving Water", "lesson_description": "3L6 (90%) PRIMARY | 3R9 (85%) SECONDARY | 3R3 (83%) SECONDARY | 3R2 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "conserve, scarce, precious, reduce, waste"}]}',
     'published', true, NOW()
   );
 
@@ -910,7 +910,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Inventor''s Workshop', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Inventor''s Workshop', '3L6 (89%) PRIMARY | 3R9 (85%) SECONDARY | 3R3 (82%) SECONDARY | 3R2 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/50.png'
@@ -925,7 +925,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Inventor''s Workshop',
-    '{"lesson_name": "The Inventor''s Workshop", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "invent, design, test, failure, improve"}]}',
+    '{"lesson_name": "The Inventor''s Workshop", "lesson_description": "3L6 (89%) PRIMARY | 3R9 (85%) SECONDARY | 3R3 (82%) SECONDARY | 3R2 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "invent, design, test, failure, improve"}]}',
     'published', true, NOW()
   );
 
@@ -945,7 +945,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Wild Horses', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Wild Horses', '3L6 (89%) PRIMARY | 3R9 (85%) SECONDARY | 3R3 (82%) SECONDARY | 3R2 (79%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/88.png'
@@ -960,7 +960,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Wild Horses',
-    '{"lesson_name": "Wild Horses", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "herd, territory, roam, instinct, dominant"}]}',
+    '{"lesson_name": "Wild Horses", "lesson_description": "3L6 (89%) PRIMARY | 3R9 (85%) SECONDARY | 3R3 (82%) SECONDARY | 3R2 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "herd, territory, roam, instinct, dominant"}]}',
     'published', true, NOW()
   );
 
@@ -980,7 +980,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Bridges and Engineers', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'Bridges and Engineers', '3L6 (88%) PRIMARY | 3R9 (84%) SECONDARY | 3R3 (82%) SECONDARY | 3R2 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/26.png'
@@ -995,7 +995,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Bridges and Engineers',
-    '{"lesson_name": "Bridges and Engineers", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "structure, support, tension, design, construct"}]}',
+    '{"lesson_name": "Bridges and Engineers", "lesson_description": "3L6 (88%) PRIMARY | 3R9 (84%) SECONDARY | 3R3 (82%) SECONDARY | 3R2 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "structure, support, tension, design, construct"}]}',
     'published', true, NOW()
   );
 
@@ -1015,7 +1015,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'A Comet Passes By', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'A Comet Passes By', '3L6 (88%) PRIMARY | 3R9 (84%) SECONDARY | 3R3 (82%) SECONDARY | 3R2 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/68.png'
@@ -1030,7 +1030,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'A Comet Passes By',
-    '{"lesson_name": "A Comet Passes By", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "orbit, telescope, atmosphere, streak, astronomer"}]}',
+    '{"lesson_name": "A Comet Passes By", "lesson_description": "3L6 (88%) PRIMARY | 3R9 (84%) SECONDARY | 3R3 (82%) SECONDARY | 3R2 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "orbit, telescope, atmosphere, streak, astronomer"}]}',
     'published', true, NOW()
   );
 
@@ -1050,7 +1050,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Rainforest Layers', 'Build a Story With Keywords for the user',
+    v_lesson_id, 'The Rainforest Layers', '3L6 (87%) PRIMARY | 3R9 (84%) SECONDARY | 3R3 (81%) SECONDARY | 3R2 (78%) SECONDARY',
     'ccff362e-8ca9-4b2c-ad37-faba8542543b', 'EASY',
     'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/42.png'
@@ -1065,7 +1065,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Rainforest Layers',
-    '{"lesson_name": "The Rainforest Layers", "lesson_description": "Build a Story With Keywords for the user", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "canopy, species, diverse, layer, ecosystem"}]}',
+    '{"lesson_name": "The Rainforest Layers", "lesson_description": "3L6 (87%) PRIMARY | 3R9 (84%) SECONDARY | 3R3 (81%) SECONDARY | 3R2 (78%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "class_name": "3", "difficulty_level": "EASY", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}, {"content_key": "keywords", "content_value": "canopy, species, diverse, layer, ecosystem"}]}',
     'published', true, NOW()
   );
 

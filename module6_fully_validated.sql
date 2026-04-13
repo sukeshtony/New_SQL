@@ -35,7 +35,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Good Morning', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Good Morning', '3SL4 (93%) PRIMARY | 3SL6 (88%) PRIMARY | 3L2 (82%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/95.png'
@@ -49,7 +49,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Good Morning',
-    '{"lesson_name": "Good Morning", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The sun comes up, the day is new,I stretch my arms and tie my shoe, And head to school to learn something true."}]}',
+    '{"lesson_name": "Good Morning", "lesson_description": "3SL4 (93%) PRIMARY | 3SL6 (88%) PRIMARY | 3L2 (82%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The sun comes up, the day is new,I stretch my arms and tie my shoe, And head to school to learn something true."}]}',
     'published', true, NOW()
   );
 
@@ -69,7 +69,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'My Voice', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'My Voice', '3SL4 (92%) PRIMARY | 3SL6 (87%) PRIMARY | 3L2 (81%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/8.png'
@@ -83,7 +83,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'My Voice',
-    '{"lesson_name": "My Voice", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "My voice is mine — it''s small but strong,I speak up clearly all day long,And say my words where I belong."}]}',
+    '{"lesson_name": "My Voice", "lesson_description": "3SL4 (92%) PRIMARY | 3SL6 (87%) PRIMARY | 3L2 (81%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "My voice is mine — it''s small but strong,I speak up clearly all day long,And say my words where I belong."}]}',
     'published', true, NOW()
   );
 
@@ -103,7 +103,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Listen Up', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Listen Up', '3SL4 (92%) PRIMARY | 3SL6 (87%) PRIMARY | 3L2 (81%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/47.png'
@@ -117,7 +117,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Listen Up',
-    '{"lesson_name": "Listen Up", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "When someone speaks, I turn and hear,I nod my head and lean in near,Because their words are worth my ear."}]}',
+    '{"lesson_name": "Listen Up", "lesson_description": "3SL4 (92%) PRIMARY | 3SL6 (87%) PRIMARY | 3L2 (81%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "When someone speaks, I turn and hear,I nod my head and lean in near,Because their words are worth my ear."}]}',
     'published', true, NOW()
   );
 
@@ -137,7 +137,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Keep on Trying', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Keep on Trying', '3SL4 (91%) PRIMARY | 3SL6 (86%) PRIMARY | 3L2 (81%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/86.png'
@@ -151,7 +151,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Keep on Trying',
-    '{"lesson_name": "Keep on Trying", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I miss a step but start again,I try once more and wonder when I''ll find the way — I will by ten."}]}',
+    '{"lesson_name": "Keep on Trying", "lesson_description": "3SL4 (91%) PRIMARY | 3SL6 (86%) PRIMARY | 3L2 (81%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I miss a step but start again,I try once more and wonder when I''ll find the way — I will by ten."}]}',
     'published', true, NOW()
   );
 
@@ -171,7 +171,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Reading Time', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Reading Time', '3SL4 (91%) PRIMARY | 3SL6 (86%) PRIMARY | 3L2 (80%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/56.png'
@@ -185,7 +185,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Reading Time',
-    '{"lesson_name": "Reading Time", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I open up my book and seeA story waiting just for me,I read each word so carefully."}]}',
+    '{"lesson_name": "Reading Time", "lesson_description": "3SL4 (91%) PRIMARY | 3SL6 (86%) PRIMARY | 3L2 (80%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I open up my book and seeA story waiting just for me,I read each word so carefully."}]}',
     'published', true, NOW()
   );
 
@@ -205,7 +205,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Rain and Puddles', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Rain and Puddles', '3SL4 (90%) PRIMARY | 3SL6 (86%) PRIMARY | 3L2 (80%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/85.png'
@@ -219,7 +219,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Rain and Puddles',
-    '{"lesson_name": "Rain and Puddles", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The raindrops fall on leaf and stone,They splash and drip and splash alone,Then dry away — the puddle''s gone."}]}',
+    '{"lesson_name": "Rain and Puddles", "lesson_description": "3SL4 (90%) PRIMARY | 3SL6 (86%) PRIMARY | 3L2 (80%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The raindrops fall on leaf and stone,They splash and drip and splash alone,Then dry away — the puddle''s gone."}]}',
     'published', true, NOW()
   );
 
@@ -239,7 +239,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Brave Enough', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Brave Enough', '3SL4 (90%) PRIMARY | 3SL6 (85%) PRIMARY | 3L2 (80%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/45.png'
@@ -253,7 +253,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Brave Enough',
-    '{"lesson_name": "Brave Enough", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "It scares me some to stand up tall,But brave is not about no fear at all —It''s taking one more step before I fall."}]}',
+    '{"lesson_name": "Brave Enough", "lesson_description": "3SL4 (90%) PRIMARY | 3SL6 (85%) PRIMARY | 3L2 (80%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "It scares me some to stand up tall,But brave is not about no fear at all —It''s taking one more step before I fall."}]}',
     'published', true, NOW()
   );
 
@@ -273,7 +273,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Quiet Moment', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'The Quiet Moment', '3SL4 (90%) PRIMARY | 3SL6 (85%) PRIMARY | 3L2 (79%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/18.png'
@@ -287,7 +287,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Quiet Moment',
-    '{"lesson_name": "The Quiet Moment", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Sometimes the world moves fast and loud,So I close my eyes behind the crowd,And breathe until my mind''s uncloud."}]}',
+    '{"lesson_name": "The Quiet Moment", "lesson_description": "3SL4 (90%) PRIMARY | 3SL6 (85%) PRIMARY | 3L2 (79%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Sometimes the world moves fast and loud,So I close my eyes behind the crowd,And breathe until my mind''s uncloud."}]}',
     'published', true, NOW()
   );
 
@@ -307,7 +307,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'A Good Friend', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'A Good Friend', '3SL4 (89%) PRIMARY | 3SL6 (85%) PRIMARY | 3L2 (79%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/59.png'
@@ -321,7 +321,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'A Good Friend',
-    '{"lesson_name": "A Good Friend", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "A friend who listens, stands, and staysIs worth a million sunny days —I try to be that friend always."}]}',
+    '{"lesson_name": "A Good Friend", "lesson_description": "3SL4 (89%) PRIMARY | 3SL6 (85%) PRIMARY | 3L2 (79%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "A friend who listens, stands, and staysIs worth a million sunny days —I try to be that friend always."}]}',
     'published', true, NOW()
   );
 
@@ -341,7 +341,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Classroom Voices', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Classroom Voices', '3SL4 (89%) PRIMARY | 3SL6 (84%) PRIMARY | 3L2 (79%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/61.png'
@@ -355,7 +355,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Classroom Voices',
-    '{"lesson_name": "Classroom Voices", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Inside we use a gentle sound,Our voices soft and safely wound —The right voice for the space we''ve found."}]}',
+    '{"lesson_name": "Classroom Voices", "lesson_description": "3SL4 (89%) PRIMARY | 3SL6 (84%) PRIMARY | 3L2 (79%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Inside we use a gentle sound,Our voices soft and safely wound —The right voice for the space we''ve found."}]}',
     'published', true, NOW()
   );
 
@@ -375,7 +375,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Make a Mistake', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Make a Mistake', '3SL4 (89%) PRIMARY | 3SL6 (84%) PRIMARY | 3L2 (79%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/58.png'
@@ -389,7 +389,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Make a Mistake',
-    '{"lesson_name": "Make a Mistake", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I made a wrong — I said so clear,I tried again without the fear,And got it right on my next year."}]}',
+    '{"lesson_name": "Make a Mistake", "lesson_description": "3SL4 (89%) PRIMARY | 3SL6 (84%) PRIMARY | 3L2 (79%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I made a wrong — I said so clear,I tried again without the fear,And got it right on my next year."}]}',
     'published', true, NOW()
   );
 
@@ -409,7 +409,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Sharing Space', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Sharing Space', '3SL4 (88%) PRIMARY | 3SL6 (84%) PRIMARY | 3L2 (78%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/21.png'
@@ -423,7 +423,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Sharing Space',
-    '{"lesson_name": "Sharing Space", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "This desk is yours, and this is mine,But when we share, it turns out fine —Two minds together build the line."}]}',
+    '{"lesson_name": "Sharing Space", "lesson_description": "3SL4 (88%) PRIMARY | 3SL6 (84%) PRIMARY | 3L2 (78%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "This desk is yours, and this is mine,But when we share, it turns out fine —Two minds together build the line."}]}',
     'published', true, NOW()
   );
 
@@ -443,7 +443,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Stars at Night', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'The Stars at Night', '3SL4 (88%) PRIMARY | 3SL6 (83%) PRIMARY | 3L2 (78%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/86.png'
@@ -457,7 +457,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Stars at Night',
-    '{"lesson_name": "The Stars at Night", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The stars come out when school is done,They flicker where the moon has spun —A sky that never outgrows fun."}]}',
+    '{"lesson_name": "The Stars at Night", "lesson_description": "3SL4 (88%) PRIMARY | 3SL6 (83%) PRIMARY | 3L2 (78%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The stars come out when school is done,They flicker where the moon has spun —A sky that never outgrows fun."}]}',
     'published', true, NOW()
   );
 
@@ -477,7 +477,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Helping Hands', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Helping Hands', '3SL4 (88%) PRIMARY | 3SL6 (83%) PRIMARY | 3L2 (78%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/24.png'
@@ -491,7 +491,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Helping Hands',
-    '{"lesson_name": "Helping Hands", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "My hands can hold, my hands can share,They reach for those who need some care —Helping hands are everywhere."}]}',
+    '{"lesson_name": "Helping Hands", "lesson_description": "3SL4 (88%) PRIMARY | 3SL6 (83%) PRIMARY | 3L2 (78%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "My hands can hold, my hands can share,They reach for those who need some care —Helping hands are everywhere."}]}',
     'published', true, NOW()
   );
 
@@ -511,7 +511,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Words Matter', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Words Matter', '3SL4 (87%) PRIMARY | 3SL6 (83%) PRIMARY | 3L2 (78%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/84.png'
@@ -525,7 +525,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Words Matter',
-    '{"lesson_name": "Words Matter", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The words I say can lift or break,So I choose them for kindness'' sake —Words matter in the moves I make."}]}',
+    '{"lesson_name": "Words Matter", "lesson_description": "3SL4 (87%) PRIMARY | 3SL6 (83%) PRIMARY | 3L2 (78%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The words I say can lift or break,So I choose them for kindness'' sake —Words matter in the moves I make."}]}',
     'published', true, NOW()
   );
 
@@ -545,7 +545,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'What Curiosity Feels Like', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'What Curiosity Feels Like', '3SL4 (87%) PRIMARY | 3SL6 (83%) PRIMARY | 3L2 (78%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/39.png'
@@ -559,7 +559,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'What Curiosity Feels Like',
-    '{"lesson_name": "What Curiosity Feels Like", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "A question is a door flung wide,That pulls the whole world back inside —Curiosity is my best guide."}]}',
+    '{"lesson_name": "What Curiosity Feels Like", "lesson_description": "3SL4 (87%) PRIMARY | 3SL6 (83%) PRIMARY | 3L2 (78%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "A question is a door flung wide,That pulls the whole world back inside —Curiosity is my best guide."}]}',
     'published', true, NOW()
   );
 
@@ -579,7 +579,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Growing Up Slowly', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Growing Up Slowly', '3SL4 (87%) PRIMARY | 3SL6 (82%) PRIMARY | 3L2 (78%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/3.png'
@@ -593,7 +593,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Growing Up Slowly',
-    '{"lesson_name": "Growing Up Slowly", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I''m not who I was yesterday,And not yet who I''ll be someday —Growing means I''m on the way."}]}',
+    '{"lesson_name": "Growing Up Slowly", "lesson_description": "3SL4 (87%) PRIMARY | 3SL6 (82%) PRIMARY | 3L2 (78%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I''m not who I was yesterday,And not yet who I''ll be someday —Growing means I''m on the way."}]}',
     'published', true, NOW()
   );
 
@@ -613,7 +613,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Last Try', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'The Last Try', '3SL4 (86%) PRIMARY | 3SL6 (82%) PRIMARY | 3L2 (77%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/97.png'
@@ -627,7 +627,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Last Try',
-    '{"lesson_name": "The Last Try", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I wanted to quit — I nearly did,But deep inside me something hidThe try that finally flipped the lid."}]}',
+    '{"lesson_name": "The Last Try", "lesson_description": "3SL4 (86%) PRIMARY | 3SL6 (82%) PRIMARY | 3L2 (77%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I wanted to quit — I nearly did,But deep inside me something hidThe try that finally flipped the lid."}]}',
     'published', true, NOW()
   );
 
@@ -647,7 +647,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Inside the Story', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Inside the Story', '3SL4 (86%) PRIMARY | 3SL6 (82%) PRIMARY | 3L2 (77%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/43.png'
@@ -661,7 +661,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Inside the Story',
-    '{"lesson_name": "Inside the Story", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The page turns quiet, and I''m in —The world around me grows thin skin — The story living beneath my chin."}]}',
+    '{"lesson_name": "Inside the Story", "lesson_description": "3SL4 (86%) PRIMARY | 3SL6 (82%) PRIMARY | 3L2 (77%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The page turns quiet, and I''m in —The world around me grows thin skin — The story living beneath my chin."}]}',
     'published', true, NOW()
   );
 
@@ -681,7 +681,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'What Fairness Looks Like', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'What Fairness Looks Like', '3SL4 (86%) PRIMARY | 3SL6 (81%) PRIMARY | 3L2 (77%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/53.png'
@@ -695,7 +695,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'What Fairness Looks Like',
-    '{"lesson_name": "What Fairness Looks Like", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Fair doesn''t mean we all get same —It means each player plays the gameWith what they need to reach the frame."}]}',
+    '{"lesson_name": "What Fairness Looks Like", "lesson_description": "3SL4 (86%) PRIMARY | 3SL6 (81%) PRIMARY | 3L2 (77%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Fair doesn''t mean we all get same —It means each player plays the gameWith what they need to reach the frame."}]}',
     'published', true, NOW()
   );
 
@@ -715,7 +715,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Paying Attention', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Paying Attention', '3SL4 (86%) PRIMARY | 3SL6 (81%) PRIMARY | 3L2 (77%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/44.png'
@@ -729,7 +729,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Paying Attention',
-    '{"lesson_name": "Paying Attention", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The world is full of things to missWhen minds move fast and eyes go whiz —Slowing down is where the real thing is."}]}',
+    '{"lesson_name": "Paying Attention", "lesson_description": "3SL4 (86%) PRIMARY | 3SL6 (81%) PRIMARY | 3L2 (77%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The world is full of things to missWhen minds move fast and eyes go whiz —Slowing down is where the real thing is."}]}',
     'published', true, NOW()
   );
 
@@ -749,7 +749,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Who I''m Becoming', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Who I''m Becoming', '3SL4 (85%) PRIMARY | 3SL6 (81%) PRIMARY | 3L2 (77%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/13.png'
@@ -763,7 +763,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Who I''m Becoming',
-    '{"lesson_name": "Who I''m Becoming", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I don''t know all of who I''ll be,But every choice is shaping me —The self I''m growing, step by step, is free."}]}',
+    '{"lesson_name": "Who I''m Becoming", "lesson_description": "3SL4 (85%) PRIMARY | 3SL6 (81%) PRIMARY | 3L2 (77%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "I don''t know all of who I''ll be,But every choice is shaping me —The self I''m growing, step by step, is free."}]}',
     'published', true, NOW()
   );
 
@@ -783,7 +783,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Sound of Learning', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'The Sound of Learning', '3SL4 (85%) PRIMARY | 3SL6 (81%) PRIMARY | 3L2 (77%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/96.png'
@@ -797,7 +797,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Sound of Learning',
-    '{"lesson_name": "The Sound of Learning", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "A classroom hums with thinking minds,The kind of sound a question finds —Every answer new unwinds."}]}',
+    '{"lesson_name": "The Sound of Learning", "lesson_description": "3SL4 (85%) PRIMARY | 3SL6 (81%) PRIMARY | 3L2 (77%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "A classroom hums with thinking minds,The kind of sound a question finds —Every answer new unwinds."}]}',
     'published', true, NOW()
   );
 
@@ -817,7 +817,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Roots and Wings', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Roots and Wings', '3SL4 (85%) PRIMARY | 3SL6 (80%) PRIMARY | 3L2 (77%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/50.png'
@@ -831,7 +831,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Roots and Wings',
-    '{"lesson_name": "Roots and Wings", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Roots hold me where my story grew,But wings are what I''m reaching to —Between the two, I''m something new."}]}',
+    '{"lesson_name": "Roots and Wings", "lesson_description": "3SL4 (85%) PRIMARY | 3SL6 (80%) PRIMARY | 3L2 (77%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Roots hold me where my story grew,But wings are what I''m reaching to —Between the two, I''m something new."}]}',
     'published', true, NOW()
   );
 
@@ -851,7 +851,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Shape of a Question', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'The Shape of a Question', '3SL4 (84%) PRIMARY | 3SL6 (80%) PRIMARY | 3L2 (76%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/12.png'
@@ -865,7 +865,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Shape of a Question',
-    '{"lesson_name": "The Shape of a Question", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "A question has no finished side —It opens outward, deep and wide,And pulls the whole truth back inside."}]}',
+    '{"lesson_name": "The Shape of a Question", "lesson_description": "3SL4 (84%) PRIMARY | 3SL6 (80%) PRIMARY | 3L2 (76%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "A question has no finished side —It opens outward, deep and wide,And pulls the whole truth back inside."}]}',
     'published', true, NOW()
   );
 
@@ -885,7 +885,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'What Silence Teaches', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'What Silence Teaches', '3SL4 (84%) PRIMARY | 3SL6 (80%) PRIMARY | 3L2 (76%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/54.png'
@@ -899,7 +899,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'What Silence Teaches',
-    '{"lesson_name": "What Silence Teaches", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Silence isn''t empty air —It holds the thoughts that need more care,And clears the space for what is rare."}]}',
+    '{"lesson_name": "What Silence Teaches", "lesson_description": "3SL4 (84%) PRIMARY | 3SL6 (80%) PRIMARY | 3L2 (76%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Silence isn''t empty air —It holds the thoughts that need more care,And clears the space for what is rare."}]}',
     'published', true, NOW()
   );
 
@@ -919,7 +919,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Both Things True', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Both Things True', '3SL4 (84%) PRIMARY | 3SL6 (79%) PRIMARY | 3L2 (76%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/69.png'
@@ -933,7 +933,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Both Things True',
-    '{"lesson_name": "Both Things True", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Two things can be true at once, I find — I''m scared and brave inside my mind,The in-between is my own kind."}]}',
+    '{"lesson_name": "Both Things True", "lesson_description": "3SL4 (84%) PRIMARY | 3SL6 (79%) PRIMARY | 3L2 (76%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Two things can be true at once, I find — I''m scared and brave inside my mind,The in-between is my own kind."}]}',
     'published', true, NOW()
   );
 
@@ -953,7 +953,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'The Long Way Around', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'The Long Way Around', '3SL4 (83%) PRIMARY | 3SL6 (79%) PRIMARY | 3L2 (76%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/97.png'
@@ -967,7 +967,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'The Long Way Around',
-    '{"lesson_name": "The Long Way Around", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The longest road is sometimes right,It leads through shadow into light —The short way skips what makes you bright."}]}',
+    '{"lesson_name": "The Long Way Around", "lesson_description": "3SL4 (83%) PRIMARY | 3SL6 (79%) PRIMARY | 3L2 (76%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "The longest road is sometimes right,It leads through shadow into light —The short way skips what makes you bright."}]}',
     'published', true, NOW()
   );
 
@@ -987,7 +987,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'What We Leave Behind', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'What We Leave Behind', '3SL4 (83%) PRIMARY | 3SL6 (79%) PRIMARY | 3L2 (76%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/9.png'
@@ -1001,7 +1001,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'What We Leave Behind',
-    '{"lesson_name": "What We Leave Behind", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "What will remain when I have gone?The kindness carried, passed along —The echo of a voice still strong."}]}',
+    '{"lesson_name": "What We Leave Behind", "lesson_description": "3SL4 (83%) PRIMARY | 3SL6 (79%) PRIMARY | 3L2 (76%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "What will remain when I have gone?The kindness carried, passed along —The echo of a voice still strong."}]}',
     'published', true, NOW()
   );
 
@@ -1021,7 +1021,7 @@ BEGIN
     difficulty_level, lesson_type, created_on, created_by,
     created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
   ) VALUES (
-    v_lesson_id, 'Making Meaning', 'Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.',
+    v_lesson_id, 'Making Meaning', '3SL4 (83%) PRIMARY | 3SL6 (79%) PRIMARY | 3L2 (75%) SECONDARY',
     '0a1c0321-81a1-465f-a8d1-11beec18c591', 'EASY',
     'Vocal Variety Emotion', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
     'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/64.png'
@@ -1035,7 +1035,7 @@ BEGIN
     lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
   ) VALUES (
     gen_random_uuid(), v_lesson_id, 1, 'Making Meaning',
-    '{"lesson_name": "Making Meaning", "lesson_description": "Read the poem aloud clearly. Pay attention to rhythm, pauses, and expression. Try to read smoothly and with confidence.", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Meaning isn''t handed down —I search the sounds and words I''ve found,And build it from the ground around."}]}',
+    '{"lesson_name": "Making Meaning", "lesson_description": "3SL4 (83%) PRIMARY | 3SL6 (79%) PRIMARY | 3L2 (75%) SECONDARY", "training_module_id": "0a1c0321-81a1-465f-a8d1-11beec18c591", "grade": 3, "section": null, "difficulty_level": "EASY", "lesson_type": "Vocal Variety Emotion", "contents": [{"content_key": "example", "content_value": "The sun paints gold across the sky,\nBirds take flight and breezes sigh.\nLeaves that whisper, rivers that run—\nNature''s poem has just begun."}, {"content_key": "assigned_text", "content_value": "Meaning isn''t handed down —I search the sounds and words I''ve found,And build it from the ground around."}]}',
     'published', true, NOW()
   );
 
