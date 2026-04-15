@@ -984,5 +984,78 @@ BEGIN
     v_learning_path_id, v_custom_version_id, 'e844d6ae-cbfd-45f9-ba3b-d0b3f1dde266', v_lesson_id,
     'Paragraph Reading Test', 3, NULL, 'MEDIUM', 225
   );
+  -- Lesson 30: The Group She Would Have Missed
+  v_lesson_id := gen_random_uuid();
 
+  INSERT INTO bantrly.lesson (
+    lesson_id, lesson_name, lesson_description, training_module_id,
+    difficulty_level, lesson_type, created_on, created_by,
+    created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
+  ) VALUES (
+    v_lesson_id,
+    'The Group She Would Have Missed',
+    '3R3 (93%) PRIMARY | 3R2 (89%) SECONDARY | 3R6 (86%) SECONDARY | 3R9 (82%) SECONDARY',
+    '1c83484e-7cf1-4e26-8503-62cff6d07789',
+    'MEDIUM',
+    'Paragraph Reading Test',
+    NOW(),
+    'ee42009d-d83e-4c12-abd1-2d8fff809b18',
+    'TEACHER',
+    false,
+    false,
+    3,
+    NULL,
+    'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/30.png'
+  );
+
+  INSERT INTO bantrly.lesson_content (
+    content_id, lesson_id, content_key, content_value, created_at, updated_at
+  ) VALUES
+    (
+      gen_random_uuid(),
+      v_lesson_id,
+      'passage',
+      'When the teacher assigned the end-of-year community project, Zara was placed in a group with two students she had never worked with and one she actively hoped to avoid — a classmate named Finn who talked constantly and rarely seemed to listen. She approached the first meeting braced for frustration. But something unexpected happened in the second week: Finn, who had seemed scattered and loud in class, turned out to be genuinely creative under pressure, generating ideas faster than anyone Zara had worked with. He was still difficult to redirect once he got going. But she started to see the two things as separate: his noise and his talent were not the same thing, and dismissing one didn''t require dismissing the other. On the last day of the project, their group received the highest peer feedback score in the class. Zara thought about how close she had come to spending six weeks resenting every session. Instead she had learned something about the difference between a person who annoyed her and a person who was without value — and discovered, with some discomfort, that she had been conflating the two.',
+      NOW(),
+      NOW()
+    ),
+    (
+      gen_random_uuid(),
+      v_lesson_id,
+      'example',
+      'Read the following paragraph clearly and with appropriate expression. Focus on your pacing and clarity.',
+      NOW(),
+      NOW()
+    );
+
+  INSERT INTO bantrly.lesson_version_new (
+    lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
+  ) VALUES (
+    gen_random_uuid(),
+    v_lesson_id,
+    1,
+    'The Group She Would Have Missed',
+    '{"lesson_name": "The Group She Would Have Missed", "lesson_description": "3R3 (93%) PRIMARY | 3R2 (89%) SECONDARY | 3R6 (86%) SECONDARY | 3R9 (82%) SECONDARY", "training_module_id": "1c83484e-7cf1-4e26-8503-62cff6d07789", "grade": 3, "section": null, "difficulty_level": "MEDIUM", "lesson_type": "Paragraph Reading Test", "contents": [{"content_key": "passage", "content_value": "When the teacher assigned the end-of-year community project, Zara was placed in a group with two students she had never worked with and one she actively hoped to avoid — a classmate named Finn who talked constantly and rarely seemed to listen. She approached the first meeting braced for frustration. But something unexpected happened in the second week: Finn, who had seemed scattered and loud in class, turned out to be genuinely creative under pressure, generating ideas faster than anyone Zara had worked with. He was still difficult to redirect once he got going. But she started to see the two things as separate: his noise and his talent were not the same thing, and dismissing one didn''t require dismissing the other. On the last day of the project, their group received the highest peer feedback score in the class. Zara thought about how close she had come to spending six weeks resenting every session. Instead she had learned something about the difference between a person who annoyed her and a person who was without value — and discovered, with some discomfort, that she had been conflating the two."}, {"content_key": "example", "content_value": "Read the following paragraph clearly and with appropriate expression. Focus on your pacing and clarity."}]}',
+    'published',
+    true,
+    NOW()
+  );
+
+  INSERT INTO bantrly.program_lesson_sequence_new (
+    learning_path_id, version_id, school_id, lesson_id,
+    lesson_type, grade, section, difficulty_level, sort_order
+  ) VALUES (
+    v_learning_path_id,
+    v_custom_version_id,
+    'e844d6ae-cbfd-45f9-ba3b-d0b3f1dde266',
+    v_lesson_id,
+    'Paragraph Reading Test',
+    3,
+    NULL,
+    'MEDIUM',
+    233
+  );
+  
 END $$;
+
+

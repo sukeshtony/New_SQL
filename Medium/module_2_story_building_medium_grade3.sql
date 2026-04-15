@@ -979,5 +979,105 @@ BEGIN
     v_learning_path_id, v_custom_version_id, 'e844d6ae-cbfd-45f9-ba3b-d0b3f1dde266', v_lesson_id,
     'Story Building with Keywords', 3, NULL, 'MEDIUM', 218
   );
+  -- Lesson 29: How Maps Show Power
+  v_lesson_id := gen_random_uuid();
 
+  INSERT INTO bantrly.lesson (
+    lesson_id, lesson_name, lesson_description, training_module_id,
+    difficulty_level, lesson_type, created_on, created_by,
+    created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
+  ) VALUES (
+    v_lesson_id, 'How Maps Show Power',
+    '3L6 (90%) PRIMARY | 3R6 (87%) SECONDARY | 3R7 (83%) SECONDARY | 3R2 (79%) SECONDARY',
+    'ccff362e-8ca9-4b2c-ad37-faba8542543b',
+    'MEDIUM', 'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
+    'TEACHER', false, false, 3, NULL,
+    'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/29.png'
+  );
+
+  INSERT INTO bantrly.lesson_content (
+    content_id, lesson_id, content_key, content_value, created_at, updated_at
+  ) VALUES
+    (
+      gen_random_uuid(), v_lesson_id, 'keywords',
+      'border, territory, accurate, represent, question',
+      NOW(), NOW()
+    ),
+    (
+      gen_random_uuid(), v_lesson_id, 'example_question',
+      'forest, lantern, path, courage, adventure',
+      NOW(), NOW()
+    ),
+    (
+      gen_random_uuid(), v_lesson_id, 'example_content',
+      'In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward.',
+      NOW(), NOW()
+    );
+
+  INSERT INTO bantrly.lesson_version_new (
+    lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
+  ) VALUES (
+    gen_random_uuid(), v_lesson_id, 1, 'How Maps Show Power',
+    '{"lesson_name": "How Maps Show Power", "lesson_description": "3L6 (90%) PRIMARY | 3R6 (87%) SECONDARY | 3R7 (83%) SECONDARY | 3R2 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "grade": 3, "section": null, "difficulty_level": "MEDIUM", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "keywords", "content_value": "border, territory, accurate, represent, question"}, {"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}]}',
+    'published', true, NOW()
+  );
+
+  INSERT INTO bantrly.program_lesson_sequence_new (
+    learning_path_id, version_id, school_id, lesson_id,
+    lesson_type, grade, section, difficulty_level, sort_order
+  ) VALUES (
+    v_learning_path_id, v_custom_version_id, 'e844d6ae-cbfd-45f9-ba3b-d0b3f1dde266', v_lesson_id,
+    'Story Building with Keywords', 3, NULL, 'MEDIUM', 226
+  );
+
+  -- Lesson 30: Symbols and What They Mean
+  v_lesson_id := gen_random_uuid();
+
+  INSERT INTO bantrly.lesson (
+    lesson_id, lesson_name, lesson_description, training_module_id,
+    difficulty_level, lesson_type, created_on, created_by,
+    created_by_role, is_deleted, is_assessment, grade, section, lesson_image_url
+  ) VALUES (
+    v_lesson_id, 'Symbols and What They Mean',
+    '3L6 (90%) PRIMARY | 3R2 (87%) SECONDARY | 3R9 (83%) SECONDARY | 3L5 (79%) SECONDARY',
+    'ccff362e-8ca9-4b2c-ad37-faba8542543b',
+    'MEDIUM', 'Story Building with Keywords', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
+    'TEACHER', false, false, 3, NULL,
+    'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/30.png'
+  );
+
+  INSERT INTO bantrly.lesson_content (
+    content_id, lesson_id, content_key, content_value, created_at, updated_at
+  ) VALUES
+    (
+      gen_random_uuid(), v_lesson_id, 'keywords',
+      'symbol, represent, meaning, culture, interpret',
+      NOW(), NOW()
+    ),
+    (
+      gen_random_uuid(), v_lesson_id, 'example_question',
+      'forest, lantern, path, courage, adventure',
+      NOW(), NOW()
+    ),
+    (
+      gen_random_uuid(), v_lesson_id, 'example_content',
+      'In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward.',
+      NOW(), NOW()
+    );
+
+  INSERT INTO bantrly.lesson_version_new (
+    lesson_version_id, lesson_id, version_number, title, content, status, is_latest, created_at
+  ) VALUES (
+    gen_random_uuid(), v_lesson_id, 1, 'Symbols and What They Mean',
+    '{"lesson_name": "Symbols and What They Mean", "lesson_description": "3L6 (90%) PRIMARY | 3R2 (87%) SECONDARY | 3R9 (83%) SECONDARY | 3L5 (79%) SECONDARY", "training_module_id": "ccff362e-8ca9-4b2c-ad37-faba8542543b", "grade": 3, "section": null, "difficulty_level": "MEDIUM", "lesson_type": "Story Building with Keywords", "contents": [{"content_key": "keywords", "content_value": "symbol, represent, meaning, culture, interpret"}, {"content_key": "example_question", "content_value": "forest, lantern, path, courage, adventure"}, {"content_key": "example_content", "content_value": "In a quiet forest, a child discovered a glowing lantern lying on the path. Holding it high, they found the courage to walk deeper into the woods. Every step revealed hidden wonders, and the adventure showed that bravery lights the way forward."}]}',
+    'published', true, NOW()
+  );
+
+  INSERT INTO bantrly.program_lesson_sequence_new (
+    learning_path_id, version_id, school_id, lesson_id,
+    lesson_type, grade, section, difficulty_level, sort_order
+  ) VALUES (
+    v_learning_path_id, v_custom_version_id, 'e844d6ae-cbfd-45f9-ba3b-d0b3f1dde266', v_lesson_id,
+    'Story Building with Keywords', 3, NULL, 'MEDIUM', 234
+  );
 END $$;
