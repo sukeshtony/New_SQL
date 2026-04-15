@@ -41,7 +41,7 @@ BEGIN
     v_lesson_id, 'Cats vs. Dogs', '3SL1 (91%) PRIMARY | 3SL4 (85%) PRIMARY | 3L1 (80%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/51.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -82,7 +82,7 @@ Give your final argument for why cats should win this debate.', NOW(), NOW()),
     v_lesson_id, 'Summer vs. Winter', '3SL1 (90%) PRIMARY | 3SL4 (85%) PRIMARY | 3L1 (80%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/58.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -123,7 +123,7 @@ Make your final case: which season wins and why?', NOW(), NOW()),
     v_lesson_id, 'Pizza vs. Tacos', '3SL1 (90%) PRIMARY | 3SL4 (84%) PRIMARY | 3L1 (80%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/33.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -164,7 +164,7 @@ Wrap it up with your strongest argument for pizza.', NOW(), NOW()),
     v_lesson_id, 'Morning vs. Night', '3SL1 (89%) PRIMARY | 3SL4 (84%) PRIMARY | 3L1 (79%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/10.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -205,7 +205,7 @@ Final argument: morning or night — which one wins?', NOW(), NOW()),
     v_lesson_id, 'Books vs. Movies', '3SL1 (89%) PRIMARY | 3SL4 (84%) PRIMARY | 3L1 (79%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/37.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -246,7 +246,7 @@ Close it out: what''s your strongest argument?', NOW(), NOW()),
     v_lesson_id, 'Indoor Recess vs. Outdoor Recess', '3SL1 (89%) PRIMARY | 3SL4 (83%) PRIMARY | 3L1 (79%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/20.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -287,7 +287,7 @@ Give your final word on which one is better and why.', NOW(), NOW()),
     v_lesson_id, 'Homework vs. No Homework', '3SL1 (89%) PRIMARY | 3SL4 (83%) PRIMARY | 3L1 (79%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/43.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -328,7 +328,7 @@ Is there any homework that would be okay on weekends? Explain, then close your a
     v_lesson_id, 'Longer Lunch vs. Shorter Lunch', '3SL1 (88%) PRIMARY | 3SL4 (83%) PRIMARY | 3L1 (78%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/84.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -369,7 +369,7 @@ Wrap up your argument — is the extra time really worth it?', NOW(), NOW()),
     v_lesson_id, 'Gym Class vs. Art Class', '3SL1 (88%) PRIMARY | 3SL4 (82%) PRIMARY | 3L1 (78%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/21.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -410,7 +410,7 @@ Give your final statement: which class matters more to a student''s day?', NOW()
     v_lesson_id, 'Crunchy vs. Smooth Peanut Butter', '3SL1 (88%) PRIMARY | 3SL4 (82%) PRIMARY | 3L1 (78%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/61.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -451,7 +451,7 @@ Land your strongest argument and declare a winner.', NOW(), NOW()),
     v_lesson_id, 'Class Pet vs. No Class Pet', '3SL1 (87%) PRIMARY | 3SL4 (82%) PRIMARY | 3L1 (78%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/49.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -492,7 +492,7 @@ Make your closing argument — pets in classrooms, yes or no?', NOW(), NOW()),
     v_lesson_id, 'Stand-Up Desks vs. Regular Desks', '3SL1 (87%) PRIMARY | 3SL4 (82%) PRIMARY | 3L1 (78%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/96.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -533,7 +533,7 @@ Final thought: should standing be an option in your school?', NOW(), NOW()),
     v_lesson_id, 'Technology in Class vs. No Screens', '3SL1 (87%) PRIMARY | 3SL4 (81%) PRIMARY | 3L1 (77%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/49.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -574,7 +574,7 @@ Where do you land? Give your final take on screens in school.', NOW(), NOW()),
     v_lesson_id, 'School Uniforms vs. Casual Clothes', '3SL1 (87%) PRIMARY | 3SL4 (81%) PRIMARY | 3L1 (77%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/94.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -615,7 +615,7 @@ Close your argument — uniforms or freedom of choice?', NOW(), NOW()),
     v_lesson_id, 'Four-Day School Week vs. Five-Day', '3SL1 (86%) PRIMARY | 3SL4 (81%) PRIMARY | 3L1 (77%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/87.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -656,7 +656,7 @@ Make your final case — four days or five?', NOW(), NOW()),
     v_lesson_id, 'Fast vs. Careful', '3SL1 (87%) PRIMARY | 3SL4 (83%) PRIMARY | 3R9 (78%) SECONDARY | 3L1 (76%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/97.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -697,7 +697,7 @@ Is there a situation where both could be right? Close with your position.', NOW(
     v_lesson_id, 'Leaders vs. Followers', '3SL1 (86%) PRIMARY | 3SL4 (82%) PRIMARY | 3R9 (78%) SECONDARY | 3L1 (76%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/70.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -738,7 +738,7 @@ Final answer: which role matters more, or are they equal?', NOW(), NOW()),
     v_lesson_id, 'Group Work vs. Solo Work', '3SL1 (86%) PRIMARY | 3SL4 (82%) PRIMARY | 3R9 (78%) SECONDARY | 3L1 (76%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/94.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -779,7 +779,7 @@ Is there a type of task where one is clearly better? Make your closing argument.
     v_lesson_id, 'Rules vs. No Rules', '3SL1 (86%) PRIMARY | 3SL4 (82%) PRIMARY | 3R9 (77%) SECONDARY | 3L1 (76%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/62.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -820,7 +820,7 @@ Are any rules absolutely necessary? Close your argument.', NOW(), NOW()),
     v_lesson_id, 'Trying New Things vs. Sticking with What You Know', '3SL1 (85%) PRIMARY | 3SL4 (81%) PRIMARY | 3R9 (77%) SECONDARY | 3L1 (75%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/99.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -861,7 +861,7 @@ What''s your final position — breadth or depth?', NOW(), NOW()),
     v_lesson_id, 'Learning from Mistakes vs. Learning from Success', '3SL1 (85%) PRIMARY | 3SL4 (81%) PRIMARY | 3R9 (77%) SECONDARY | 3L1 (75%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/17.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -902,7 +902,7 @@ Give your final verdict — mistakes or success, which teaches more?', NOW(), NO
     v_lesson_id, 'Asking for Help vs. Figuring It Out Yourself', '3SL1 (85%) PRIMARY | 3SL4 (81%) PRIMARY | 3R9 (77%) SECONDARY | 3L1 (75%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/73.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -943,7 +943,7 @@ Final thought: when is each approach the right one?', NOW(), NOW()),
     v_lesson_id, 'Effort vs. Natural Talent', '3SL1 (85%) PRIMARY | 3SL4 (80%) PRIMARY | 3R9 (77%) SECONDARY | 3L1 (75%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/54.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -984,7 +984,7 @@ Land your argument: effort or talent — which one wins in the end?', NOW(), NOW
     v_lesson_id, 'Fairness vs. Equality', '3SL1 (86%) PRIMARY | 3SL4 (82%) PRIMARY | 3R9 (79%) SECONDARY | 3L1 (76%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/72.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -1025,7 +1025,7 @@ Give your final argument: which principle should schools follow — equality or 
     v_lesson_id, 'Changing the Rules vs. Following Them', '3SL1 (85%) PRIMARY | 3SL4 (82%) PRIMARY | 3R9 (79%) SECONDARY | 3L1 (76%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/10.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -1066,7 +1066,7 @@ Close with your final take: when should you follow a rule, and when should you w
     v_lesson_id, 'Individual vs. Team', '3SL1 (85%) PRIMARY | 3SL4 (81%) PRIMARY | 3R9 (78%) SECONDARY | 3L1 (75%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/27.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -1107,7 +1107,7 @@ Is there a way to balance both? Give your final position.', NOW(), NOW()),
     v_lesson_id, 'Knowing vs. Understanding', '3SL1 (85%) PRIMARY | 3SL4 (81%) PRIMARY | 3R9 (78%) SECONDARY | 3L1 (75%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/41.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -1148,7 +1148,7 @@ Final argument: in school and in life, which one serves you better?', NOW(), NOW
     v_lesson_id, 'Short-Term vs. Long-Term Thinking', '3SL1 (84%) PRIMARY | 3SL4 (81%) PRIMARY | 3R9 (78%) SECONDARY | 3L1 (75%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/41.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -1189,7 +1189,7 @@ Make your final case: short-term satisfaction or long-term planning — which wi
     v_lesson_id, 'Saying Something vs. Staying Quiet', '3SL1 (84%) PRIMARY | 3SL4 (80%) PRIMARY | 3R9 (77%) SECONDARY | 3L1 (75%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/97.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
@@ -1230,7 +1230,7 @@ Close with your final position: is silence ever the right answer?', NOW(), NOW()
     v_lesson_id, 'One Strong Voice vs. Many Small Voices', '3SL1 (84%) PRIMARY | 3SL4 (80%) PRIMARY | 3R9 (77%) SECONDARY | 3L1 (74%) SECONDARY',
     '8addaf36-3881-49d8-ab34-444c399bf432', 'EASY',
     'Silly Topic Debate', NOW(), 'ee42009d-d83e-4c12-abd1-2d8fff809b18',
-    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/1.png'
+    'TEACHER', false, false, 3, NULL, 'https://ai-voice-app-audio-storage.s3.us-east-1.amazonaws.com/lesson_images/75.png'
   );
 
   INSERT INTO bantrly.lesson_content (content_id, lesson_id, content_key, content_value, created_at, updated_at) VALUES
