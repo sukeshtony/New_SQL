@@ -19,6 +19,8 @@ updated_lesson_content AS (
     WHERE lc.lesson_id = l.lesson_id
       AND lc.content_key = 'keywords'
       AND l.difficulty_level = 'EASY'
+      AND l.created_by = 'ee42009d-d83e-4c12-abd1-2d8fff809b18'
+      AND l.created_by_role = 'TEACHER'
     RETURNING l.lesson_name
 ),
 
@@ -35,6 +37,8 @@ updated_lesson_version AS (
     WHERE lvn.lesson_id = l.lesson_id
       AND lvn.is_latest = true
       AND l.difficulty_level = 'EASY'
+      AND l.created_by = 'ee42009d-d83e-4c12-abd1-2d8fff809b18'
+      AND l.created_by_role = 'TEACHER'
     RETURNING lvn.title
 )
 

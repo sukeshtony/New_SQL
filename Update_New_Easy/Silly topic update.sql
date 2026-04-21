@@ -3,11 +3,14 @@ BEGIN;
 -- Strict filters for safety
 DO $$
 DECLARE
-  v_created_by UUID := 'ee42009d-d83e-4c12-abd1-2d8fff809b18';
+  v_created_by TEXT := 'ee42009d-d83e-4c12-abd1-2d8fff809b18';
   v_role TEXT := 'TEACHER';
   v_lesson_type TEXT := 'Silly Topic Debate';
   v_difficulty TEXT := 'EASY';
-  v_training_module_id UUID := '8addaf36-3881-49d8-ab34-444c399bf432';
+  v_training_module_id TEXT := '8addaf36-3881-49d8-ab34-444c399bf432';
+  v_found_count INT;
+  v_content_count INT;
+  v_version_count INT;
 BEGIN
 
 WITH updated_data (lesson_name, topic, user_side, ai_side, content_val, ex_topic, ex_user, ex_ai, full_json) AS (
@@ -105,13 +108,13 @@ What''s your final thought?', 'Ice Cream is better than Pizza', 'Ice cream is co
 ),
 
 target_lessons AS (
-    SELECT lesson_id, lesson_name, full_json
+    SELECT l.lesson_id, l.lesson_name, ud.full_json
     FROM bantrly.lesson l
     JOIN updated_data ud ON l.lesson_name = ud.lesson_name
-    WHERE training_module_id = v_training_module_id
+    WHERE training_module_id = v_training_module_id::UUID
       AND lesson_type = v_lesson_type
       AND difficulty_level = v_difficulty
-      AND created_by = v_created_by
+      AND created_by::TEXT = v_created_by::TEXT
       AND created_by_role = v_role
 ),
 
@@ -147,9 +150,14 @@ update_version AS (
 )
 
 SELECT 
-  (SELECT COUNT(*) FROM target_lessons) AS lessons_found,
-  (SELECT COUNT(*) FROM update_content) AS content_rows_updated,
-  (SELECT COUNT(*) FROM update_version) AS versions_updated;
+  (SELECT COUNT(*) FROM target_lessons),
+  (SELECT COUNT(*) FROM update_content),
+  (SELECT COUNT(*) FROM update_version)
+INTO v_found_count, v_content_count, v_version_count;
+
+RAISE NOTICE 'Lessons found: %', v_found_count;
+RAISE NOTICE 'Content rows updated: %', v_content_count;
+RAISE NOTICE 'Versions updated: %', v_version_count;
 
 END $$;
 

@@ -23,7 +23,7 @@ try:
 except ImportError:
     sys.exit("❌  openpyxl not installed. Run:  pip install openpyxl")
 
-EXCEL_FILE = "lesson_template.xlsx"
+EXCEL_FILE = "3 time silly topic update.xlsx"
 
 # ─── Load workbook ─────────────────────────────────────────────────────────────
 def load_wb():
