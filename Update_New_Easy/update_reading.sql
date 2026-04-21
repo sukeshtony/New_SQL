@@ -34,6 +34,7 @@ updated_lesson_content AS (
         ON pu.lesson_name = l.lesson_name
     WHERE lc.lesson_id = l.lesson_id
       AND lc.content_key = 'passage'
+      AND l.difficulty_level = 'EASY'
     RETURNING l.lesson_name
 ),
 
@@ -49,7 +50,8 @@ updated_lesson_version AS (
         ON pu.lesson_name = l.lesson_name
     WHERE lvn.lesson_id = l.lesson_id
       AND lvn.is_latest = true
-    RETURNING l.title
+      AND l.difficulty_level = 'EASY'
+    RETURNING lvn.title
 )
 
 SELECT 
