@@ -24,7 +24,7 @@ except ImportError:
     sys.exit("openpyxl not installed.  Run: pip install openpyxl")
 
 CONFIG_SHEET   = "Config"
-DEFAULT_EXCEL  = "update_template.xlsx"
+DEFAULT_EXCEL  = "Easy Poem.xlsx"
 OUTPUT_FILE    = "update_output.sql"
 
 # ─── Module definitions ────────────────────────────────────────────────────────
@@ -211,7 +211,16 @@ def build_cte_pair(
     return cte, selects
 
 
-def generate_sql(excel_path: str) -> str | None:
+def module_number(sheet_name: str) -> int:
+    """Extract the module number from a sheet name like 'M3 - QA Bursts' -> 3."""
+    return int(sheet_name.split(" - ")[0].strip()[1:])
+
+
+def generate_sql(excel_path: str, selected: set[int] | None = None) -> str | None:
+    """Generate UPDATE SQL.
+
+    selected: set of module numbers to include (None = all modules).
+    """
     wb  = openpyxl.load_workbook(excel_path, data_only=True)
     cfg = read_config(wb)
 
@@ -220,6 +229,9 @@ def generate_sql(excel_path: str) -> str | None:
     total_fields = 0
 
     for sheet_name, key_index_pairs in MODULE_KEYS.items():
+        mod_num = module_number(sheet_name)
+        if selected and mod_num not in selected:
+            continue
         if sheet_name not in wb.sheetnames:
             continue
         ws = wb[sheet_name]
@@ -369,16 +381,44 @@ def create_template(out_path: str = "update_template.xlsx") -> None:
     print("  5. Delete or ignore the yellow example row.")
 
 
+VALID_MODULES = {module_number(s): s for s in MODULE_KEYS}
+
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 def main() -> None:
     args = sys.argv[1:]
 
+    # ── --create-template [output.xlsx] ────────────────────────────────────────
     if "--create-template" in args:
-        out = next((a for a in args if not a.startswith("--")), "update_template.xlsx")
+        positional = [a for a in args if not a.startswith("--")]
+        out = positional[0] if positional else "update_template.xlsx"
         create_template(out)
         return
 
-    excel_file = next((a for a in args if not a.startswith("--")), DEFAULT_EXCEL)
+    # ── --list ─────────────────────────────────────────────────────────────────
+    if "--list" in args:
+        print("Available modules:")
+        for num, sheet in VALID_MODULES.items():
+            print(f"  {num}  {sheet}")
+        return
+
+    # ── Separate the Excel filename from module numbers ────────────────────────
+    # Positional args: first non-numeric string = Excel file; integers = modules
+    positional  = [a for a in args if not a.startswith("--")]
+    mod_args    = [a for a in positional if a.isdigit()]
+    file_args   = [a for a in positional if not a.isdigit()]
+
+    excel_file = file_args[0] if file_args else DEFAULT_EXCEL
+
+    selected: set[int] | None = None
+    if mod_args:
+        selected = set()
+        for m in mod_args:
+            n = int(m)
+            if n not in VALID_MODULES:
+                sys.exit(f"Module {n} does not exist. Valid: 1-8  (use --list to see names)")
+            selected.add(n)
+
     p = Path(excel_file)
     if not p.exists():
         sys.exit(
@@ -386,8 +426,9 @@ def main() -> None:
             "Run with --create-template to generate a blank template."
         )
 
-    print(f"Reading:  {p}")
-    sql = generate_sql(str(p))
+    label = f"modules {sorted(selected)}" if selected else "all modules"
+    print(f"Reading:  {p}  [{label}]")
+    sql = generate_sql(str(p), selected)
 
     if sql:
         out = Path(OUTPUT_FILE)
