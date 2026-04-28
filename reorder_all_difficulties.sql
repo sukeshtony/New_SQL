@@ -73,18 +73,12 @@ WHERE pls.lesson_id        = l.lesson_id
                                'Vocal Variety Emotion', 'Silly Topic Debate');
 
 -- ============================================================
--- HARD  (M5 already at slot 3 — only M3, M4, M6, M7 change)
---   M3 Quick Thinking:       4 → 7  (+3)
---   M4 Presentation Skill:   5 → 6  (+1)
+-- HARD  (M3 and M4 already fixed by fix_hard_lesson_type_and_sort_order.sql)
 --   M6 Vocal Variety Emotion: 6 → 5  (-1)
---   M7 Silly Topic Debate:   7 → 4  (-3)
--- (lesson_types updated to match Easy/Medium — Listening Comprehension → Quick Thinking,
---  Informative Presentation → Presentation Skill, Reading Comprehension → Paragraph Reading Test)
+--   M7 Silly Topic Debate:    7 → 4  (-3)
 -- ============================================================
 UPDATE bantrly.program_lesson_sequence_new pls
 SET sort_order = CASE pls.lesson_type
-    WHEN 'Quick Thinking'        THEN pls.sort_order + 3   -- M3: 4→7, 12→15, 20→23 …
-    WHEN 'Presentation Skill'    THEN pls.sort_order + 1   -- M4: 5→6, 13→14, 21→22 …
     WHEN 'Vocal Variety Emotion' THEN pls.sort_order - 1   -- M6: 6→5, 14→13, 22→21 …
     WHEN 'Silly Topic Debate'    THEN pls.sort_order - 3   -- M7: 7→4, 15→12, 23→20 …
 END
@@ -93,8 +87,7 @@ WHERE pls.lesson_id        = l.lesson_id
   AND pls.difficulty_level = 'HARD'
   AND l.created_by         = 'ee42009d-d83e-4c12-abd1-2d8fff809b18'
   AND l.created_by_role    = 'TEACHER'
-  AND pls.lesson_type      IN ('Quick Thinking', 'Presentation Skill',
-                               'Vocal Variety Emotion', 'Silly Topic Debate');
+  AND pls.lesson_type      IN ('Vocal Variety Emotion', 'Silly Topic Debate');
 
 -- ============================================================
 -- Verify: should show slot 1-8 in order for each difficulty
