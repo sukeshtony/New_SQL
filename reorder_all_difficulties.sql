@@ -14,16 +14,15 @@
 --       as the MEDIUM deltas here assume the original sort_orders from the SQL files.
 --       Run this script only once from the original database state.
 --
--- Lesson types per difficulty:
---   lesson_type              | Easy/Medium | Hard
---   -------------------------|-------------|----------------------
---   M1 Reading Paragraph     | Paragraph Reading Test | Reading Comprehension
---   M3 QA Bursts / Rapid Fire| Quick Thinking         | Listening Comprehension
---   M4 Presentation          | Presentation Skill     | Informative Presentation
---   M5 Tongue Twisters       | Pronunciation Diction  | Pronunciation Diction (same)
---   M6 Poems                 | Vocal Variety Emotion  | Vocal Variety Emotion (same)
---   M7 Silly Topics          | Silly Topic Debate     | Silly Topic Debate (same)
---   M8 Audio Postcards       | Personal Expression    | Personal Expression (same)
+-- Lesson types (now identical across all three difficulties after Hard was updated):
+--   M1  Paragraph Reading Test
+--   M2  Story Building with Keywords
+--   M3  Quick Thinking
+--   M4  Presentation Skill
+--   M5  Pronunciation Diction
+--   M6  Vocal Variety Emotion
+--   M7  Silly Topic Debate
+--   M8  Personal Expression
 
 BEGIN;
 
@@ -75,24 +74,26 @@ WHERE pls.lesson_id        = l.lesson_id
 
 -- ============================================================
 -- HARD  (M5 already at slot 3 — only M3, M4, M6, M7 change)
---   M3 Listening Comprehension:   4 → 7  (+3)
---   M4 Informative Presentation:  5 → 6  (+1)
---   M6 Vocal Variety Emotion:     6 → 5  (-1)
---   M7 Silly Topic Debate:        7 → 4  (-3)
+--   M3 Quick Thinking:       4 → 7  (+3)
+--   M4 Presentation Skill:   5 → 6  (+1)
+--   M6 Vocal Variety Emotion: 6 → 5  (-1)
+--   M7 Silly Topic Debate:   7 → 4  (-3)
+-- (lesson_types updated to match Easy/Medium — Listening Comprehension → Quick Thinking,
+--  Informative Presentation → Presentation Skill, Reading Comprehension → Paragraph Reading Test)
 -- ============================================================
 UPDATE bantrly.program_lesson_sequence_new pls
 SET sort_order = CASE pls.lesson_type
-    WHEN 'Listening Comprehension'  THEN pls.sort_order + 3   -- M3: 4→7, 12→15, 20→23 …
-    WHEN 'Informative Presentation' THEN pls.sort_order + 1   -- M4: 5→6, 13→14, 21→22 …
-    WHEN 'Vocal Variety Emotion'    THEN pls.sort_order - 1   -- M6: 6→5, 14→13, 22→21 …
-    WHEN 'Silly Topic Debate'       THEN pls.sort_order - 3   -- M7: 7→4, 15→12, 23→20 …
+    WHEN 'Quick Thinking'        THEN pls.sort_order + 3   -- M3: 4→7, 12→15, 20→23 …
+    WHEN 'Presentation Skill'    THEN pls.sort_order + 1   -- M4: 5→6, 13→14, 21→22 …
+    WHEN 'Vocal Variety Emotion' THEN pls.sort_order - 1   -- M6: 6→5, 14→13, 22→21 …
+    WHEN 'Silly Topic Debate'    THEN pls.sort_order - 3   -- M7: 7→4, 15→12, 23→20 …
 END
 FROM bantrly.lesson l
 WHERE pls.lesson_id        = l.lesson_id
   AND pls.difficulty_level = 'HARD'
   AND l.created_by         = 'ee42009d-d83e-4c12-abd1-2d8fff809b18'
   AND l.created_by_role    = 'TEACHER'
-  AND pls.lesson_type      IN ('Listening Comprehension', 'Informative Presentation',
+  AND pls.lesson_type      IN ('Quick Thinking', 'Presentation Skill',
                                'Vocal Variety Emotion', 'Silly Topic Debate');
 
 -- ============================================================
